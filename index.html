@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30 Chinese Characters Master — 30个基础汉字轻松学</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Hanzi Writer -->
+  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== PAGE: Dashboard ===== -->
+  <div id="dashboard" class="page active">
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-bold mb-1 char-display">30个基础汉字轻松学</h1>
+      <p class="text-gray-500 text-lg">เรียนรู้ 30 ตัวอักษรจีนพื้นฐาน</p>
+    </div>
+
+    <!-- 总体进度 -->
+    <div class="mb-8 max-w-md mx-auto">
+      <div class="flex justify-between items-center mb-2">
+        <span class="text-sm font-semibold text-gray-600">ความก้าวหน้าทั้งหมด</span>
+        <span id="progress-text" class="text-sm font-bold text-blue-600">0%</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div id="overall-progress" class="progress-bar-fill" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Level 卡片网格 -->
+    <div id="level-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <!-- 动态渲染 -->
+    </div>
+
+    <div class="text-center mt-8 text-sm text-gray-400">
+      &#128218; คลิกที่การ์ดเพื่อเริ่มเรียน
+    </div>
+  </div>
+
+  <!-- ===== PAGE: Review ===== -->
+  <div id="review-page" class="page">
+    <div class="mb-6">
+      <button class="nav-btn nav-btn-back" onclick="showLearning()">
+        &#8592; ข้ามการทบทวน
+      </button>
+    </div>
+    <div class="text-center mb-6">
+      <h2 class="text-2xl font-bold">&#128221; ทบทวนก่อนเรียน</h2>
+      <p class="text-gray-500 mt-1">มาทบทวนตัวอักษรที่เรียนไปแล้วกันเถอะ!</p>
+    </div>
+    <div id="review-content" class="max-w-lg mx-auto">
+      <!-- 动态渲染 -->
+    </div>
+  </div>
+
+  <!-- ===== PAGE: Learning ===== -->
+  <div id="learning-page" class="page">
+    <!-- 顶部导航 -->
+    <div class="flex items-center justify-between mb-4">
+      <button class="nav-btn nav-btn-back" onclick="showDashboard()">
+        &#8592; กลับ
+      </button>
+      <h2 id="learning-level-title" class="text-lg font-bold"></h2>
+    </div>
+
+    <!-- 汉字 Tab 切换 -->
+    <div id="char-tabs" class="flex justify-center gap-3 mb-6">
+      <!-- 动态渲染 -->
+    </div>
+
+    <!-- 基础信息区 -->
+    <div class="bg-white rounded-xl shadow-sm p-6 mb-4 text-center">
+      <div class="flex items-center justify-center gap-4 mb-3">
+        <span id="char-display" class="char-main char-display"></span>
+        <button class="audio-btn" onclick="playAudio()" title="ฟังเสียง">
+          &#128264;
+        </button>
+      </div>
+      <div id="char-pinyin" class="pinyin mb-1"></div>
+      <div id="char-thai" class="thai-meaning"></div>
+    </div>
+
+    <!-- 字源演变区 -->
+    <div class="mb-4">
+      <h3 class="text-lg font-bold mb-2">&#128220; ที่มาของตัวอักษร</h3>
+      <div id="etymology-section" class="etymology-section">
+        <!-- 动态渲染 -->
+      </div>
+    </div>
+
+    <!-- 笔顺动画 + 手写练习 并排 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+      <!-- 笔顺动画区 -->
+      <div class="bg-white rounded-xl shadow-sm p-4">
+        <h3 class="text-lg font-bold mb-3 text-center">&#9999;&#65039; ลำดับขีด</h3>
+        <div class="flex justify-center mb-3">
+          <div class="grid-container" style="width:250px;height:250px;">
+            <svg class="grid-lines" viewBox="0 0 250 250">
+              <line x1="125" y1="0" x2="125" y2="250"/>
+              <line x1="0" y1="125" x2="250" y2="125"/>
+              <line x1="0" y1="0" x2="250" y2="250"/>
+              <line x1="250" y1="0" x2="0" y2="250"/>
+            </svg>
+            <div id="animation-target"></div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="quiz-btn quiz-btn-primary" onclick="playAnimation()">
+            &#9654; เล่นอนิเมชัน
+          </button>
+        </div>
+      </div>
+
+      <!-- 手写练习区 -->
+      <div class="bg-white rounded-xl shadow-sm p-4">
+        <h3 class="text-lg font-bold mb-3 text-center">&#9997;&#65039; ฝึกเขียน</h3>
+        <div class="flex justify-center mb-3">
+          <div class="grid-container" style="width:250px;height:250px;">
+            <svg class="grid-lines" viewBox="0 0 250 250">
+              <line x1="125" y1="0" x2="125" y2="250"/>
+              <line x1="0" y1="125" x2="250" y2="125"/>
+              <line x1="0" y1="0" x2="250" y2="250"/>
+              <line x1="250" y1="0" x2="0" y2="250"/>
+            </svg>
+            <div id="quiz-target"></div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="quiz-btn quiz-btn-danger" onclick="clearQuiz()">
+            &#128465; ล้างแล้วเขียนใหม่
+          </button>
+        </div>
+        <div id="quiz-feedback" class="mt-3 text-center"></div>
+      </div>
+    </div>
+
+    <!-- 底部导航 -->
+    <div class="flex justify-between items-center">
+      <button id="btn-prev-char" class="nav-btn nav-btn-back" onclick="prevChar()">
+        &#8592; ก่อนหน้า
+      </button>
+      <button id="btn-next-char" class="nav-btn nav-btn-next" onclick="nextChar()">
+        ถัดไป &#8594;
+      </button>
+      <button id="btn-finish-level" class="nav-btn quiz-btn-success" onclick="finishLevel()" style="display:none;">
+        &#10003; เสร็จสิ้น
+      </button>
+    </div>
+  </div>
+
+  <!-- JS Modules -->
+  <script src="js/storage.js"></script>
+  <script src="js/review.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

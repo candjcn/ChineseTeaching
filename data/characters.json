@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "char": "一",
+    "pinyin": "yī",
+    "thai": "หนึ่ง",
+    "level": 1,
+    "group": 1,
+    "groupName": "ตัวเลข (1)",
+    "audio": "audio/一.mp3",
+    "etymology": {
+      "ancient": "𝍠",
+      "description": "เส้นแนวนอนหนึ่งเส้น แทนจำนวน「หนึ่ง」",
+      "descriptionZh": "一横代表数字「一」"
+    }
+  },
+  {
+    "id": 2,
+    "char": "二",
+    "pinyin": "èr",
+    "thai": "สอง",
+    "level": 1,
+    "group": 1,
+    "groupName": "ตัวเลข (1)",
+    "audio": "audio/二.mp3",
+    "etymology": {
+      "ancient": "𝍡",
+      "description": "เส้นแนวนอนสองเส้น แทนจำนวน「สอง」",
+      "descriptionZh": "两横代表数字「二」"
+    }
+  },
+  {
+    "id": 3,
+    "char": "三",
+    "pinyin": "sān",
+    "thai": "สาม",
+    "level": 1,
+    "group": 1,
+    "groupName": "ตัวเลข (1)",
+    "audio": "audio/三.mp3",
+    "etymology": {
+      "ancient": "𝍢",
+      "description": "เส้นแนวนอนสามเส้น แทนจำนวน「สาม」",
+      "descriptionZh": "三横代表数字「三」"
+    }
+  },
+  {
+    "id": 4,
+    "char": "十",
+    "pinyin": "shí",
+    "thai": "สิบ",
+    "level": 2,
+    "group": 2,
+    "groupName": "ตัวเลข (2)",
+    "audio": "audio/十.mp3",
+    "etymology": {
+      "ancient": "丨",
+      "description": "รูปเดิมเป็นเส้นตั้งมีจุด แทนการรวมกลุ่มสิบ",
+      "descriptionZh": "原始形态是一竖加一点，代表十的集合"
+    }
+  },
+  {
+    "id": 5,
+    "char": "八",
+    "pinyin": "bā",
+    "thai": "แปด",
+    "level": 2,
+    "group": 2,
+    "groupName": "ตัวเลข (2)",
+    "audio": "audio/八.mp3",
+    "etymology": {
+      "ancient": "八",
+      "description": "รูปเดิมเหมือนสิ่งของถูกแบ่งออกเป็นสองส่วน",
+      "descriptionZh": "像物体被分成两半的样子"
+    }
+  },
+  {
+    "id": 6,
+    "char": "六",
+    "pinyin": "liù",
+    "thai": "หก",
+    "level": 2,
+    "group": 2,
+    "groupName": "ตัวเลข (2)",
+    "audio": "audio/六.mp3",
+    "etymology": {
+      "ancient": "六",
+      "description": "รูปเดิมเหมือนกระท่อม แทนความหมาย「หก」",
+      "descriptionZh": "古字形像房屋，后来借用表示数字「六」"
+    }
+  },
+  {
+    "id": 7,
+    "char": "日",
+    "pinyin": "rì",
+    "thai": "พระอาทิตย์ / วัน",
+    "level": 3,
+    "group": 3,
+    "groupName": "ธรรมชาติ",
+    "audio": "audio/日.mp3",
+    "etymology": {
+      "ancient": "☉",
+      "description": "รูปวงกลมมีจุดตรงกลาง เหมือนดวงอาทิตย์",
+      "descriptionZh": "圆圈中间加一点，像太阳的样子"
+    }
+  },
+  {
+    "id": 8,
+    "char": "月",
+    "pinyin": "yuè",
+    "thai": "พระจันทร์ / เดือน",
+    "level": 3,
+    "group": 3,
+    "groupName": "ธรรมชาติ",
+    "audio": "audio/月.mp3",
+    "etymology": {
+      "ancient": "☽",
+      "description": "รูปพระจันทร์เสี้ยว",
+      "descriptionZh": "像一弯新月的形状"
+    }
+  },
+  {
+    "id": 9,
+    "char": "山",
+    "pinyin": "shān",
+    "thai": "ภูเขา",
+    "level": 3,
+    "group": 3,
+    "groupName": "ธรรมชาติ",
+    "audio": "audio/山.mp3",
+    "etymology": {
+      "ancient": "⛰",
+      "description": "ยอดเขาสามยอด ยอดกลางสูงที่สุด",
+      "descriptionZh": "三个山峰，中间最高"
+    }
+  },
+  {
+    "id": 10,
+    "char": "水",
+    "pinyin": "shuǐ",
+    "thai": "น้ำ",
+    "level": 4,
+    "group": 4,
+    "groupName": "ธาตุพื้นฐาน",
+    "audio": "audio/水.mp3",
+    "etymology": {
+      "ancient": "𰛄",
+      "description": "รูปสายน้ำไหล มีเส้นโค้งเหมือนคลื่น",
+      "descriptionZh": "像流水的波纹，中间是水流，两边是水花"
+    }
+  },
+  {
+    "id": 11,
+    "char": "火",
+    "pinyin": "huǒ",
+    "thai": "ไฟ",
+    "level": 4,
+    "group": 4,
+    "groupName": "ธาตุพื้นฐาน",
+    "audio": "audio/火.mp3",
+    "etymology": {
+      "ancient": "🔥",
+      "description": "รูปเปลวไฟลุกขึ้น",
+      "descriptionZh": "像火焰向上燃烧的样子"
+    }
+  },
+  {
+    "id": 12,
+    "char": "土",
+    "pinyin": "tǔ",
+    "thai": "ดิน",
+    "level": 4,
+    "group": 4,
+    "groupName": "ธาตุพื้นฐาน",
+    "audio": "audio/土.mp3",
+    "etymology": {
+      "ancient": "⊥",
+      "description": "รูปกองดินบนพื้น",
+      "descriptionZh": "像地面上隆起的土堆"
+    }
+  },
+  {
+    "id": 13,
+    "char": "木",
+    "pinyin": "mù",
+    "thai": "ต้นไม้ / ไม้",
+    "level": 5,
+    "group": 5,
+    "groupName": "ชีวิต",
+    "audio": "audio/木.mp3",
+    "etymology": {
+      "ancient": "🌳",
+      "description": "รูปต้นไม้ มีกิ่งด้านบนและรากด้านล่าง",
+      "descriptionZh": "像一棵树，上面是树枝，下面是树根"
+    }
+  },
+  {
+    "id": 14,
+    "char": "人",
+    "pinyin": "rén",
+    "thai": "คน",
+    "level": 5,
+    "group": 5,
+    "groupName": "ชีวิต",
+    "audio": "audio/人.mp3",
+    "etymology": {
+      "ancient": "𝌆",
+      "description": "รูปคนยืนเอียงตัว มองจากด้านข้าง",
+      "descriptionZh": "像一个人侧面站立的样子"
+    }
+  },
+  {
+    "id": 15,
+    "char": "口",
+    "pinyin": "kǒu",
+    "thai": "ปาก",
+    "level": 5,
+    "group": 5,
+    "groupName": "ชีวิต",
+    "audio": "audio/口.mp3",
+    "etymology": {
+      "ancient": "▢",
+      "description": "รูปปากที่เปิดอยู่",
+      "descriptionZh": "像张开的嘴巴"
+    }
+  },
+  {
+    "id": 16,
+    "char": "大",
+    "pinyin": "dà",
+    "thai": "ใหญ่",
+    "level": 6,
+    "group": 6,
+    "groupName": "ขนาด",
+    "audio": "audio/大.mp3",
+    "etymology": {
+      "ancient": "𡗗",
+      "description": "รูปคนยืนกางแขนกางขา แสดงถึงความ「ใหญ่」",
+      "descriptionZh": "像一个人张开双臂双腿站立，表示「大」"
+    }
+  },
+  {
+    "id": 17,
+    "char": "小",
+    "pinyin": "xiǎo",
+    "thai": "เล็ก",
+    "level": 6,
+    "group": 6,
+    "groupName": "ขนาด",
+    "audio": "audio/小.mp3",
+    "etymology": {
+      "ancient": "𡒒",
+      "description": "รูปสิ่งของถูกแบ่งเป็นชิ้นเล็กๆ",
+      "descriptionZh": "像把东西分成小块的样子"
+    }
+  },
+  {
+    "id": 18,
+    "char": "中",
+    "pinyin": "zhōng",
+    "thai": "กลาง",
+    "level": 6,
+    "group": 6,
+    "groupName": "ขนาด",
+    "audio": "audio/中.mp3",
+    "etymology": {
+      "ancient": "𠁧",
+      "description": "รูปธงปักอยู่ตรงกลาง",
+      "descriptionZh": "像一面旗帜插在中间"
+    }
+  },
+  {
+    "id": 19,
+    "char": "上",
+    "pinyin": "shàng",
+    "thai": "บน / ขึ้น",
+    "level": 7,
+    "group": 7,
+    "groupName": "ทิศทาง",
+    "audio": "audio/上.mp3",
+    "etymology": {
+      "ancient": "𠄞",
+      "description": "เส้นสั้นอยู่เหนือเส้นยาว แสดงตำแหน่ง「ข้างบน」",
+      "descriptionZh": "短横在长横之上，表示「上面」"
+    }
+  },
+  {
+    "id": 20,
+    "char": "下",
+    "pinyin": "xià",
+    "thai": "ล่าง / ลง",
+    "level": 7,
+    "group": 7,
+    "groupName": "ทิศทาง",
+    "audio": "audio/下.mp3",
+    "etymology": {
+      "ancient": "𠄟",
+      "description": "เส้นสั้นอยู่ใต้เส้นยาว แสดงตำแหน่ง「ข้างล่าง」",
+      "descriptionZh": "短横在长横之下，表示「下面」"
+    }
+  },
+  {
+    "id": 21,
+    "char": "门",
+    "pinyin": "mén",
+    "thai": "ประตู",
+    "level": 7,
+    "group": 7,
+    "groupName": "ทิศทาง",
+    "audio": "audio/门.mp3",
+    "etymology": {
+      "ancient": "門",
+      "description": "รูปบานประตูสองบาน (ตัวเต็ม: 門)",
+      "descriptionZh": "像两扇门的形状（繁体：門）"
+    }
+  },
+  {
+    "id": 22,
+    "char": "我",
+    "pinyin": "wǒ",
+    "thai": "ฉัน",
+    "level": 8,
+    "group": 8,
+    "groupName": "สรรพนาม",
+    "audio": "audio/我.mp3",
+    "etymology": {
+      "ancient": "我",
+      "description": "รูปเดิมเป็นอาวุธ (ง้าว) ต่อมาใช้แทนความหมาย「ฉัน」",
+      "descriptionZh": "古字形像一种武器（戈），后借用表示「我」"
+    }
+  },
+  {
+    "id": 23,
+    "char": "你",
+    "pinyin": "nǐ",
+    "thai": "คุณ",
+    "level": 8,
+    "group": 8,
+    "groupName": "สรรพนาม",
+    "audio": "audio/你.mp3",
+    "etymology": {
+      "ancient": "你",
+      "description": "ประกอบจาก 亻(คน) + 尔(คุณ) หมายถึง「คุณ」",
+      "descriptionZh": "由「亻」（人）和「尔」组成，表示「你」"
+    }
+  },
+  {
+    "id": 24,
+    "char": "他",
+    "pinyin": "tā",
+    "thai": "เขา (ผู้ชาย)",
+    "level": 8,
+    "group": 8,
+    "groupName": "สรรพนาม",
+    "audio": "audio/他.mp3",
+    "etymology": {
+      "ancient": "他",
+      "description": "ประกอบจาก 亻(คน) + 也(อื่น) หมายถึง「คนอื่น」",
+      "descriptionZh": "由「亻」（人）和「也」组成，表示「他人」"
+    }
+  },
+  {
+    "id": 25,
+    "char": "父",
+    "pinyin": "fù",
+    "thai": "พ่อ",
+    "level": 9,
+    "group": 9,
+    "groupName": "ครอบครัว",
+    "audio": "audio/父.mp3",
+    "etymology": {
+      "ancient": "父",
+      "description": "รูปมือถือขวาน แสดงถึงผู้ชายที่ทำงาน (พ่อ)",
+      "descriptionZh": "像手持斧头的样子，代表劳动的男性（父亲）"
+    }
+  },
+  {
+    "id": 26,
+    "char": "母",
+    "pinyin": "mǔ",
+    "thai": "แม่",
+    "level": 9,
+    "group": 9,
+    "groupName": "ครอบครัว",
+    "audio": "audio/母.mp3",
+    "etymology": {
+      "ancient": "母",
+      "description": "รูปผู้หญิงคุกเข่า มีจุดสองจุดแทนหน้าอก (แม่)",
+      "descriptionZh": "像跪坐的女性，两点代表乳房，象征母亲"
+    }
+  },
+  {
+    "id": 27,
+    "char": "子",
+    "pinyin": "zǐ",
+    "thai": "ลูก",
+    "level": 9,
+    "group": 9,
+    "groupName": "ครอบครัว",
+    "audio": "audio/子.mp3",
+    "etymology": {
+      "ancient": "子",
+      "description": "รูปเด็กทารกห่อผ้า มีแขนยื่นออกมา",
+      "descriptionZh": "像襒褒中的婴儿，伸出双臂"
+    }
+  },
+  {
+    "id": 28,
+    "char": "去",
+    "pinyin": "qù",
+    "thai": "ไป",
+    "level": 10,
+    "group": 10,
+    "groupName": "การกระทำ",
+    "audio": "audio/去.mp3",
+    "etymology": {
+      "ancient": "去",
+      "description": "รูปคนเดินออกจากถ้ำ แสดงการ「ไป」",
+      "descriptionZh": "像人从洞口离开，表示「离去」"
+    }
+  },
+  {
+    "id": 29,
+    "char": "来",
+    "pinyin": "lái",
+    "thai": "มา",
+    "level": 10,
+    "group": 10,
+    "groupName": "การกระทำ",
+    "audio": "audio/来.mp3",
+    "etymology": {
+      "ancient": "來",
+      "description": "รูปเดิมเป็นต้นข้าวสาลี ต่อมาใช้แทนความหมาย「มา」(ตัวเต็ม: 來)",
+      "descriptionZh": "古字形像麦穗，后借用表示「来」（繁体：來）"
+    }
+  },
+  {
+    "id": 30,
+    "char": "心",
+    "pinyin": "xīn",
+    "thai": "หัวใจ",
+    "level": 10,
+    "group": 10,
+    "groupName": "การกระทำ",
+    "audio": "audio/心.mp3",
+    "etymology": {
+      "ancient": "♡",
+      "description": "รูปหัวใจจริงๆ ของมนุษย์",
+      "descriptionZh": "像人体心脏的形状"
+    }
+  }
+]
