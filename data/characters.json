@@ -9,9 +9,24 @@
     "groupName": "ตัวเลข (1)",
     "audio": "audio/一.mp3",
     "etymology": {
-      "ancient": "𝍠",
-      "description": "เส้นแนวนอนหนึ่งเส้น แทนจำนวน「หนึ่ง」",
-      "descriptionZh": "一横代表数字「一」"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/一_seal_zdic.svg",
+          "description": "เส้นแนวนอนหนึ่งเส้นแทน「หนึ่ง」",
+          "descriptionZh": "一横代表「一」"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "เส้นตรงเรียบง่าย คือตัว 一 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "简洁的一横，沿用至今"
+        }
+      ]
     }
   },
   {
@@ -24,9 +39,24 @@
     "groupName": "ตัวเลข (1)",
     "audio": "audio/二.mp3",
     "etymology": {
-      "ancient": "𝍡",
-      "description": "เส้นแนวนอนสองเส้น แทนจำนวน「สอง」",
-      "descriptionZh": "两横代表数字「二」"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/二_seal_zdic.svg",
+          "description": "เส้นแนวนอนสองเส้นแทน「สอง」",
+          "descriptionZh": "两横代表「二」"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "สองเส้นตรง คือตัว 二 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "两横，沿用至今"
+        }
+      ]
     }
   },
   {
@@ -39,9 +69,24 @@
     "groupName": "ตัวเลข (1)",
     "audio": "audio/三.mp3",
     "etymology": {
-      "ancient": "𝍢",
-      "description": "เส้นแนวนอนสามเส้น แทนจำนวน「สาม」",
-      "descriptionZh": "三横代表数字「三」"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/三_seal_zdic.svg",
+          "description": "เส้นแนวนอนสามเส้นแทน「สาม」",
+          "descriptionZh": "三横代表「三」"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "สามเส้นตรง คือตัว 三 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "三横，沿用至今"
+        }
+      ]
     }
   },
   {
@@ -54,9 +99,40 @@
     "groupName": "ตัวเลข (2)",
     "audio": "audio/十.mp3",
     "etymology": {
-      "ancient": "丨",
-      "description": "รูปเดิมเป็นเส้นตั้งมีจุด แทนการรวมกลุ่มสิบ",
-      "descriptionZh": "原始形态是一竖加一点，代表十的集合"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/十_oracle.svg",
+          "description": "เส้นตั้งมีจุดตรงกลาง แทนการนับครบสิบ",
+          "descriptionZh": "一竖加点，代表满十"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/十_bronze.svg",
+          "description": "จุดเริ่มกลายเป็นเส้นขวาง",
+          "descriptionZh": "点逐渐变为横线"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/十_seal.svg",
+          "description": "เส้นตั้งกับเส้นนอนตัดกัน เป็นรูป 十",
+          "descriptionZh": "横竖交叉，成为「十」"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 十 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -69,9 +145,24 @@
     "groupName": "ตัวเลข (2)",
     "audio": "audio/八.mp3",
     "etymology": {
-      "ancient": "八",
-      "description": "รูปเดิมเหมือนสิ่งของถูกแบ่งออกเป็นสองส่วน",
-      "descriptionZh": "像物体被分成两半的样子"
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/八_bronze.svg",
+          "description": "เส้นสองเส้นแยกออก เหมือนแบ่งของออกเป็นสองส่วน",
+          "descriptionZh": "两笔分开，像把东西分成两半"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 八 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -84,9 +175,24 @@
     "groupName": "ตัวเลข (2)",
     "audio": "audio/六.mp3",
     "etymology": {
-      "ancient": "六",
-      "description": "รูปเดิมเหมือนกระท่อม แทนความหมาย「หก」",
-      "descriptionZh": "古字形像房屋，后来借用表示数字「六」"
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/六_bronze.svg",
+          "description": "รูปเหมือนกระท่อม ต่อมายืมใช้แทน「หก」",
+          "descriptionZh": "像房屋形状，后借用表示「六」"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 六 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -99,9 +205,40 @@
     "groupName": "ธรรมชาติ",
     "audio": "audio/日.mp3",
     "etymology": {
-      "ancient": "☉",
-      "description": "รูปวงกลมมีจุดตรงกลาง เหมือนดวงอาทิตย์",
-      "descriptionZh": "圆圈中间加一点，像太阳的样子"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/日_oracle.svg",
+          "description": "วาดเป็นวงกลมมีจุดตรงกลาง เพราะมองดวงอาทิตย์เห็นเป็นวงกลม",
+          "descriptionZh": "画成圆圈加点，因为古人看太阳是圆的"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/日_bronze.svg",
+          "description": "วงกลมเริ่มเปลี่ยนเป็นสี่เหลี่ยม เพราะแกะสลักบนสำริดง่ายกว่า",
+          "descriptionZh": "圆圈变为方形，因为在青铜器上刻方形更容易"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/日_seal.svg",
+          "description": "กลายเป็นสี่เหลี่ยมชัดเจน มีเส้นขวางตรงกลาง",
+          "descriptionZh": "变为清晰的方形，中间有一横"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 日 สี่เหลี่ยมมีเส้นขวาง ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "方形加横，沿用至今"
+        }
+      ]
     }
   },
   {
@@ -114,9 +251,40 @@
     "groupName": "ธรรมชาติ",
     "audio": "audio/月.mp3",
     "etymology": {
-      "ancient": "☽",
-      "description": "รูปพระจันทร์เสี้ยว",
-      "descriptionZh": "像一弯新月的形状"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/月_oracle.svg",
+          "description": "วาดเป็นรูปพระจันทร์เสี้ยว",
+          "descriptionZh": "画成弯月的形状"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/月_bronze.svg",
+          "description": "พระจันทร์เสี้ยวเริ่มมีลายเส้นด้านใน",
+          "descriptionZh": "月牙内部开始有线条"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/月_seal.svg",
+          "description": "รูปร่างเริ่มเป็นสี่เหลี่ยมมากขึ้น",
+          "descriptionZh": "形状逐渐变为方形"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 月 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -129,9 +297,40 @@
     "groupName": "ธรรมชาติ",
     "audio": "audio/山.mp3",
     "etymology": {
-      "ancient": "⛰",
-      "description": "ยอดเขาสามยอด ยอดกลางสูงที่สุด",
-      "descriptionZh": "三个山峰，中间最高"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/山_oracle.svg",
+          "description": "วาดเป็นยอดเขาสามยอด ยอดกลางสูงที่สุด",
+          "descriptionZh": "画成三个山峰，中间最高"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/山_bronze.svg",
+          "description": "ยอดเขาสามยอดชัดเจนขึ้น",
+          "descriptionZh": "三个山峰更加清晰"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/山_seal.svg",
+          "description": "เส้นเริ่มตรงและเป็นระเบียบมากขึ้น",
+          "descriptionZh": "线条变得更规整"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 山 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -144,9 +343,24 @@
     "groupName": "ธาตุพื้นฐาน",
     "audio": "audio/水.mp3",
     "etymology": {
-      "ancient": "𰛄",
-      "description": "รูปสายน้ำไหล มีเส้นโค้งเหมือนคลื่น",
-      "descriptionZh": "像流水的波纹，中间是水流，两边是水花"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/水_seal.svg",
+          "description": "เส้นโค้งเหมือนสายน้ำไหล มีหยดน้ำสองข้าง",
+          "descriptionZh": "中间是水流，两边是水花"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 水 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -159,9 +373,32 @@
     "groupName": "ธาตุพื้นฐาน",
     "audio": "audio/火.mp3",
     "etymology": {
-      "ancient": "🔥",
-      "description": "รูปเปลวไฟลุกขึ้น",
-      "descriptionZh": "像火焰向上燃烧的样子"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/火_oracle.svg",
+          "description": "วาดเป็นเปลวไฟลุกขึ้นจากกองไฟ",
+          "descriptionZh": "画成火焰从火堆升起"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/火_seal.svg",
+          "description": "เปลวไฟเริ่มมีรูปร่างชัดเจนขึ้น",
+          "descriptionZh": "火焰形状更加明确"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 火 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -174,9 +411,40 @@
     "groupName": "ธาตุพื้นฐาน",
     "audio": "audio/土.mp3",
     "etymology": {
-      "ancient": "⊥",
-      "description": "รูปกองดินบนพื้น",
-      "descriptionZh": "像地面上隆起的土堆"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/土_oracle.svg",
+          "description": "วาดเป็นกองดินนูนขึ้นจากพื้น",
+          "descriptionZh": "画成地面上隆起的土堆"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/土_bronze.svg",
+          "description": "กองดินเริ่มมีรูปร่างเป็นเส้นตรง",
+          "descriptionZh": "土堆形状开始变规整"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/土_seal.svg",
+          "description": "กลายเป็นรูป 十 มีฐานด้านล่าง",
+          "descriptionZh": "变为上十下一的形状"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 土 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -189,9 +457,40 @@
     "groupName": "ชีวิต",
     "audio": "audio/木.mp3",
     "etymology": {
-      "ancient": "🌳",
-      "description": "รูปต้นไม้ มีกิ่งด้านบนและรากด้านล่าง",
-      "descriptionZh": "像一棵树，上面是树枝，下面是树根"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/木_oracle.svg",
+          "description": "วาดเป็นต้นไม้ มีกิ่งด้านบนและรากด้านล่าง",
+          "descriptionZh": "像一棵树，上面是树枝，下面是树根"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/木_bronze.svg",
+          "description": "ต้นไม้เริ่มมีรูปร่างเรียบง่ายขึ้น",
+          "descriptionZh": "树的形状开始简化"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/木_seal.svg",
+          "description": "เส้นตรงและเป็นระเบียบ เห็นกิ่งและรากชัดเจน",
+          "descriptionZh": "线条规整，枝根分明"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 木 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -204,9 +503,40 @@
     "groupName": "ชีวิต",
     "audio": "audio/人.mp3",
     "etymology": {
-      "ancient": "𝌆",
-      "description": "รูปคนยืนเอียงตัว มองจากด้านข้าง",
-      "descriptionZh": "像一个人侧面站立的样子"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/人_oracle.svg",
+          "description": "วาดเป็นคนยืนเอียงตัว มองจากด้านข้าง",
+          "descriptionZh": "像人侧面站立的样子"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/人_bronze.svg",
+          "description": "รูปคนเริ่มเรียบง่ายขึ้น เหลือแค่สองขีด",
+          "descriptionZh": "人形简化为两笔"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/人_seal.svg",
+          "description": "สองเส้นรวมกัน เป็นรูปคนชัดเจน",
+          "descriptionZh": "两笔合一，人形清晰"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 人 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -219,9 +549,32 @@
     "groupName": "ชีวิต",
     "audio": "audio/口.mp3",
     "etymology": {
-      "ancient": "▢",
-      "description": "รูปปากที่เปิดอยู่",
-      "descriptionZh": "像张开的嘴巴"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/口_oracle.svg",
+          "description": "วาดเป็นปากที่เปิดอยู่ เป็นรูปวงกลมหรือวงรี",
+          "descriptionZh": "画成张开的嘴巴，圆形或椭圆"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/口_bronze.svg",
+          "description": "ปากเริ่มเปลี่ยนเป็นสี่เหลี่ยม",
+          "descriptionZh": "嘴巴形状变为方形"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 口 สี่เหลี่ยมเปิด ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "方形口字，沿用至今"
+        }
+      ]
     }
   },
   {
@@ -234,9 +587,32 @@
     "groupName": "ขนาด",
     "audio": "audio/大.mp3",
     "etymology": {
-      "ancient": "𡗗",
-      "description": "รูปคนยืนกางแขนกางขา แสดงถึงความ「ใหญ่」",
-      "descriptionZh": "像一个人张开双臂双腿站立，表示「大」"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/大_oracle.svg",
+          "description": "วาดเป็นคนยืนกางแขนกางขา แสดงความ「ใหญ่」",
+          "descriptionZh": "人张开双臂双腿站立，表示「大」"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/大_bronze.svg",
+          "description": "รูปคนกางแขนเริ่มเป็นระเบียบมากขึ้น",
+          "descriptionZh": "人形更加规整"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 大 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -249,9 +625,32 @@
     "groupName": "ขนาด",
     "audio": "audio/小.mp3",
     "etymology": {
-      "ancient": "𡒒",
-      "description": "รูปสิ่งของถูกแบ่งเป็นชิ้นเล็กๆ",
-      "descriptionZh": "像把东西分成小块的样子"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/小_oracle.svg",
+          "description": "วาดเป็นจุดเล็กๆ สามจุด แสดงสิ่งเล็กๆ",
+          "descriptionZh": "三个小点，表示细小的东西"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/小_bronze.svg",
+          "description": "สามจุดเริ่มกลายเป็นขีด",
+          "descriptionZh": "三点变为三笔"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 小 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -264,9 +663,24 @@
     "groupName": "ขนาด",
     "audio": "audio/中.mp3",
     "etymology": {
-      "ancient": "𠁧",
-      "description": "รูปธงปักอยู่ตรงกลาง",
-      "descriptionZh": "像一面旗帜插在中间"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/中_seal_zdic.svg",
+          "description": "วาดเป็นธงปักตรงกลาง แสดงตำแหน่ง「กลาง」",
+          "descriptionZh": "像旗帜插在中间，表示「中」"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 中 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -279,9 +693,32 @@
     "groupName": "ทิศทาง",
     "audio": "audio/上.mp3",
     "etymology": {
-      "ancient": "𠄞",
-      "description": "เส้นสั้นอยู่เหนือเส้นยาว แสดงตำแหน่ง「ข้างบน」",
-      "descriptionZh": "短横在长横之上，表示「上面」"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/上_oracle.svg",
+          "description": "เส้นสั้นอยู่เหนือเส้นยาว แสดง「ข้างบน」",
+          "descriptionZh": "短横在长横之上，表示「上」"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/上_bronze.svg",
+          "description": "รูปร่างเริ่มคล้ายตัว 上 ในปัจจุบัน",
+          "descriptionZh": "形状接近现代的「上」"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 上 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -294,9 +731,32 @@
     "groupName": "ทิศทาง",
     "audio": "audio/下.mp3",
     "etymology": {
-      "ancient": "𠄟",
-      "description": "เส้นสั้นอยู่ใต้เส้นยาว แสดงตำแหน่ง「ข้างล่าง」",
-      "descriptionZh": "短横在长横之下，表示「下面」"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/下_oracle.svg",
+          "description": "เส้นสั้นอยู่ใต้เส้นยาว แสดง「ข้างล่าง」",
+          "descriptionZh": "短横在长横之下，表示「下」"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/下_bronze.svg",
+          "description": "รูปร่างเริ่มคล้ายตัว 下 ในปัจจุบัน",
+          "descriptionZh": "形状接近现代的「下」"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 下 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -309,9 +769,24 @@
     "groupName": "ทิศทาง",
     "audio": "audio/门.mp3",
     "etymology": {
-      "ancient": "門",
-      "description": "รูปบานประตูสองบาน (ตัวเต็ม: 門)",
-      "descriptionZh": "像两扇门的形状（繁体：門）"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/门_seal_zdic.svg",
+          "description": "วาดเป็นบานประตูสองบาน (繁体: 門)",
+          "descriptionZh": "像两扇门的形状（繁体：門）"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 门 แบบตัวย่อ ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "简化为「门」，沿用至今"
+        }
+      ]
     }
   },
   {
@@ -324,9 +799,32 @@
     "groupName": "สรรพนาม",
     "audio": "audio/我.mp3",
     "etymology": {
-      "ancient": "我",
-      "description": "รูปเดิมเป็นอาวุธ (ง้าว) ต่อมาใช้แทนความหมาย「ฉัน」",
-      "descriptionZh": "古字形像一种武器（戈），后借用表示「我」"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/我_oracle.svg",
+          "description": "วาดเป็นอาวุธ (ง้าว) ต่อมายืมใช้แทน「ฉัน」",
+          "descriptionZh": "像一种武器（戈），后借用表示「我」"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/我_seal.svg",
+          "description": "รูปอาวุธเริ่มมีรูปร่างซับซ้อนขึ้น",
+          "descriptionZh": "武器形状变得更复杂"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 我 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -339,9 +837,16 @@
     "groupName": "สรรพนาม",
     "audio": "audio/你.mp3",
     "etymology": {
-      "ancient": "你",
-      "description": "ประกอบจาก 亻(คน) + 尔(คุณ) หมายถึง「คุณ」",
-      "descriptionZh": "由「亻」（人）和「尔」组成，表示「你」"
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "亻(คน) + 尔(คุณ) = 你 ประกอบจากสองส่วน",
+          "descriptionZh": "由「亻」（人）和「尔」组成，表示「你」"
+        }
+      ]
     }
   },
   {
@@ -354,9 +859,16 @@
     "groupName": "สรรพนาม",
     "audio": "audio/他.mp3",
     "etymology": {
-      "ancient": "他",
-      "description": "ประกอบจาก 亻(คน) + 也(อื่น) หมายถึง「คนอื่น」",
-      "descriptionZh": "由「亻」（人）和「也」组成，表示「他人」"
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "亻(คน) + 也(อื่น) = 他 ประกอบจากสองส่วน",
+          "descriptionZh": "由「亻」（人）和「也」组成，表示「他」"
+        }
+      ]
     }
   },
   {
@@ -369,9 +881,24 @@
     "groupName": "ครอบครัว",
     "audio": "audio/父.mp3",
     "etymology": {
-      "ancient": "父",
-      "description": "รูปมือถือขวาน แสดงถึงผู้ชายที่ทำงาน (พ่อ)",
-      "descriptionZh": "像手持斧头的样子，代表劳动的男性（父亲）"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/父_seal_zdic.svg",
+          "description": "วาดเป็นมือถือขวาน แสดงถึงผู้ชายที่ทำงาน",
+          "descriptionZh": "像手持斧头，代表劳动的男性"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 父 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -384,9 +911,24 @@
     "groupName": "ครอบครัว",
     "audio": "audio/母.mp3",
     "etymology": {
-      "ancient": "母",
-      "description": "รูปผู้หญิงคุกเข่า มีจุดสองจุดแทนหน้าอก (แม่)",
-      "descriptionZh": "像跪坐的女性，两点代表乳房，象征母亲"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/母_seal_zdic.svg",
+          "description": "วาดเป็นผู้หญิงคุกเข่า มีจุดสองจุดแทนหน้าอก",
+          "descriptionZh": "像跪坐的女性，两点代表乳房"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 母 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -399,9 +941,32 @@
     "groupName": "ครอบครัว",
     "audio": "audio/子.mp3",
     "etymology": {
-      "ancient": "子",
-      "description": "รูปเด็กทารกห่อผ้า มีแขนยื่นออกมา",
-      "descriptionZh": "像襒褒中的婴儿，伸出双臂"
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/子_bronze.svg",
+          "description": "วาดเป็นทารกห่อผ้าอ้อม มีแขนยื่นออกมา",
+          "descriptionZh": "像襒褒中的婴儿，伸出双臂"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/子_seal.svg",
+          "description": "ทารกเริ่มมีรูปร่างเรียบง่ายขึ้น",
+          "descriptionZh": "婴儿形状开始简化"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 子 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -414,9 +979,32 @@
     "groupName": "การกระทำ",
     "audio": "audio/去.mp3",
     "etymology": {
-      "ancient": "去",
-      "description": "รูปคนเดินออกจากถ้ำ แสดงการ「ไป」",
-      "descriptionZh": "像人从洞口离开，表示「离去」"
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรกระดูกเสี่ยงทาย",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/去_oracle.svg",
+          "description": "วาดเป็นคนเดินออกจากที่อยู่ แสดงการ「ไป」",
+          "descriptionZh": "像人从住处离开，表示「离去」"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/去_seal.svg",
+          "description": "รูปร่างเริ่มซับซ้อนขึ้น",
+          "descriptionZh": "形状变得更复杂"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 去 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   },
   {
@@ -429,9 +1017,24 @@
     "groupName": "การกระทำ",
     "audio": "audio/来.mp3",
     "etymology": {
-      "ancient": "來",
-      "description": "รูปเดิมเป็นต้นข้าวสาลี ต่อมาใช้แทนความหมาย「มา」(ตัวเต็ม: 來)",
-      "descriptionZh": "古字形像麦穗，后借用表示「来」（繁体：來）"
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/来_seal_zdic.svg",
+          "description": "วาดเป็นต้นข้าวสาลี ต่อมายืมใช้แทน「มา」(繁体: 來)",
+          "descriptionZh": "古字像麦穗，后借用表示「来」（繁体：來）"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 来 แบบตัวย่อ ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "简化为「来」，沿用至今"
+        }
+      ]
     }
   },
   {
@@ -444,9 +1047,32 @@
     "groupName": "การกระทำ",
     "audio": "audio/心.mp3",
     "etymology": {
-      "ancient": "♡",
-      "description": "รูปหัวใจจริงๆ ของมนุษย์",
-      "descriptionZh": "像人体心脏的形状"
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/心_bronze.svg",
+          "description": "วาดเป็นรูปหัวใจจริงๆ ของมนุษย์",
+          "descriptionZh": "像人体心脏的真实形状"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/心_seal.svg",
+          "description": "รูปหัวใจเริ่มเป็นนามธรรมมากขึ้น",
+          "descriptionZh": "心脏形状开始抽象化"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 心 ที่ใช้ในปัจจุบัน",
+          "descriptionZh": "沿用至今"
+        }
+      ]
     }
   }
 ]

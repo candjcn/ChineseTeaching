@@ -130,7 +130,7 @@ body {
   transform: scale(0.95);
 }
 
-/* ===== 字源演变区 ===== */
+/* ===== 字源演变区 — 时间轴 ===== */
 .etymology-section {
   background: linear-gradient(135deg, #fdf6e3, #faf3e0);
   border-radius: var(--radius);
@@ -138,19 +138,158 @@ body {
   border: 1px solid #e8dcc8;
 }
 
-.etymology-ancient {
-  font-size: 64px;
-  opacity: 0.7;
+.etymology-timeline {
+  width: 100%;
 }
 
-.etymology-arrow {
-  font-size: 32px;
+.timeline-stages {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  overflow-x: auto;
+  padding: 8px 0 16px;
+  scroll-behavior: smooth;
+}
+
+.timeline-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 140px;
+  flex: 1;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.timeline-stage.hidden-stage {
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+}
+
+.timeline-stage.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Timeline dot and connector */
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent-gray);
+  border: 3px solid #e8dcc8;
+  z-index: 2;
+  transition: all 0.4s ease;
+}
+
+.timeline-dot.active {
+  background: var(--accent-red);
+  border-color: var(--accent-red);
+  box-shadow: 0 0 0 4px rgba(192, 57, 43, 0.2);
+}
+
+.timeline-connector {
+  position: absolute;
+  top: 8px;
+  left: calc(50% + 8px);
+  width: calc(100% - 16px);
+  height: 2px;
+  background: var(--accent-gray);
+  z-index: 1;
+  transition: background 0.5s ease;
+}
+
+.timeline-connector.filled {
+  background: var(--accent-red);
+}
+
+/* Timeline content */
+.timeline-content {
+  text-align: center;
+  margin-top: 12px;
+  padding: 0 4px;
+}
+
+.timeline-period {
+  font-size: 11px;
+  color: #999;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.timeline-image-box {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e0d5c5;
+  overflow: hidden;
+}
+
+.timeline-img {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.timeline-char-modern {
+  font-size: 56px;
+  line-height: 1;
   color: var(--accent-red);
-  margin: 0 16px;
 }
 
-.etymology-modern {
-  font-size: 64px;
+.timeline-char-fallback {
+  font-size: 48px;
+  line-height: 1;
+  color: #999;
+}
+
+.timeline-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-ink);
+}
+
+.timeline-label-th {
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.timeline-desc {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.timeline-desc-zh {
+  font-size: 11px;
+  color: #aaa;
+  margin: 2px 0 0;
+}
+
+/* Mobile: scroll horizontally */
+@media (max-width: 480px) {
+  .timeline-stage {
+    min-width: 120px;
+  }
+  .timeline-image-box {
+    width: 72px;
+    height: 72px;
+  }
+  .timeline-img {
+    max-width: 64px;
+    max-height: 64px;
+  }
+  .timeline-char-modern {
+    font-size: 44px;
+  }
 }
 
 /* ===== 米字格 ===== */

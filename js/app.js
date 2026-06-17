@@ -238,17 +238,8 @@ function renderLearning() {
   document.getElementById('char-pinyin').textContent = charData.pinyin;
   document.getElementById('char-thai').textContent = charData.thai;
 
-  // 字源演变区
-  const etymologyDiv = document.getElementById('etymology-section');
-  etymologyDiv.innerHTML = `
-    <div class="flex items-center justify-center gap-4 mb-4">
-      <div class="etymology-ancient char-display">${charData.etymology.ancient}</div>
-      <div class="etymology-arrow">&#10132;</div>
-      <div class="etymology-modern char-display">${charData.char}</div>
-    </div>
-    <p class="text-center text-gray-600">${charData.etymology.description}</p>
-    <p class="text-center text-gray-400 text-sm mt-1">${charData.etymology.descriptionZh}</p>
-  `;
+  // 字源演变区 — 时间轴
+  renderEtymologyTimeline(charData);
 
   // 笔顺动画区
   const animTarget = document.getElementById('animation-target');
@@ -322,6 +313,82 @@ function renderCharTabs() {
     const learnedClass = p.status !== 'new' ? 'learned' : '';
     return `<button class="char-tab char-display ${activeClass} ${learnedClass}" onclick="switchChar(${i})">${c.char}</button>`;
   }).join('');
+}
+
+// ===== 字源时间轴 =====
+let etymologyRevealedCount = 0;
+
+function renderEtymologyTimeline(charData) {
+  const container = document.getElementById('etymology-section');
+  const stages = charData.etymology.stages;
+  etymologyRevealedCount = 1; // 默认显示第一个阶段
+
+  container.innerHTML = `
+    <div class="etymology-timeline">
+      <div class="timeline-stages" id="timeline-stages">
+        ${stages.map((stage, i) => `
+          <div class="timeline-stage ${i === 0 ? 'revealed' : 'hidden-stage'}" data-index="${i}">
+            <div class="timeline-dot ${i === 0 ? 'active' : ''}"></div>
+            ${i < stages.length - 1 ? '<div class="timeline-connector"></div>' : ''}
+            <div class="timeline-content">
+              <div class="timeline-period">${stage.period}</div>
+              <div class="timeline-image-box">
+                ${stage.image
+                  ? `<img src="${stage.image}" alt="${stage.name}" class="timeline-img" onerror="this.parentElement.innerHTML='<span class=\\'char-display timeline-char-fallback\\'>${charData.char}</span>'">`
+                  : `<span class="char-display timeline-char-modern">${charData.char}</span>`
+                }
+              </div>
+              <div class="timeline-label">${stage.name}</div>
+              <div class="timeline-label-th">${stage.nameTh}</div>
+              <p class="timeline-desc">${stage.description}</p>
+              <p class="timeline-desc-zh">${stage.descriptionZh}</p>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+      ${stages.length > 1 ? `
+        <div class="text-center mt-4">
+          <button id="btn-reveal-next" class="quiz-btn quiz-btn-primary" onclick="revealNextStage()">
+            ดูขั้นตอนถัดไป &#8594;
+          </button>
+          <button id="btn-reveal-reset" class="quiz-btn quiz-btn-danger" onclick="resetTimeline()" style="display:none; margin-left:8px;">
+            &#8634; ดูใหม่
+          </button>
+        </div>
+      ` : ''}
+    </div>
+  `;
+}
+
+function revealNextStage() {
+  const stages = document.querySelectorAll('.timeline-stage');
+  if (etymologyRevealedCount < stages.length) {
+    const stage = stages[etymologyRevealedCount];
+    stage.classList.remove('hidden-stage');
+    stage.classList.add('revealed');
+    stage.querySelector('.timeline-dot').classList.add('active');
+
+    // Animate connector
+    const prevStage = stages[etymologyRevealedCount - 1];
+    const connector = prevStage.querySelector('.timeline-connector');
+    if (connector) connector.classList.add('filled');
+
+    etymologyRevealedCount++;
+
+    // Scroll stage into view
+    stage.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+
+    // If all revealed, switch button
+    if (etymologyRevealedCount >= stages.length) {
+      document.getElementById('btn-reveal-next').style.display = 'none';
+      document.getElementById('btn-reveal-reset').style.display = '';
+    }
+  }
+}
+
+function resetTimeline() {
+  const charData = currentLevelChars[currentCharIndex];
+  renderEtymologyTimeline(charData);
 }
 
 // 播放笔顺动画
