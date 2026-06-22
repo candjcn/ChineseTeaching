@@ -1074,5 +1074,4891 @@
         }
       ]
     }
+  },
+  {
+    "id": 31,
+    "char": "四",
+    "pinyin": "sì",
+    "thai": "สี่",
+    "level": 11,
+    "group": 11,
+    "groupName": "ตัวเลขเพิ่มเติม",
+    "audio": "audio/四.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/四_seal_zdic.svg",
+          "description": "ตัว 四 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「四」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 四 ที่ใช้ในปัจจุบัน แปลว่า「สี่」",
+          "descriptionZh": "现代楷书「四」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "char": "五",
+    "pinyin": "wǔ",
+    "thai": "ห้า",
+    "level": 11,
+    "group": 11,
+    "groupName": "ตัวเลขเพิ่มเติม",
+    "audio": "audio/五.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/五_bronze.svg",
+          "description": "ตัว 五 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「五」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/五_seal_zdic.svg",
+          "description": "ตัว 五 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「五」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 五 ที่ใช้ในปัจจุบัน แปลว่า「ห้า」",
+          "descriptionZh": "现代楷书「五」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "char": "七",
+    "pinyin": "qī",
+    "thai": "เจ็ด",
+    "level": 11,
+    "group": 11,
+    "groupName": "ตัวเลขเพิ่มเติม",
+    "audio": "audio/七.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/七_bronze.svg",
+          "description": "ตัว 七 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「七」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/七_seal_zdic.svg",
+          "description": "ตัว 七 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「七」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 七 ที่ใช้ในปัจจุบัน แปลว่า「เจ็ด」",
+          "descriptionZh": "现代楷书「七」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "char": "九",
+    "pinyin": "jiǔ",
+    "thai": "เก้า",
+    "level": 11,
+    "group": 11,
+    "groupName": "ตัวเลขเพิ่มเติม",
+    "audio": "audio/九.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/九_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 九 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「九」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/九_bronze.svg",
+          "description": "ตัว 九 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「九」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/九_seal.svg",
+          "description": "ตัว 九 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「九」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 九 ที่ใช้ในปัจจุบัน แปลว่า「เก้า」",
+          "descriptionZh": "现代楷书「九」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "char": "零",
+    "pinyin": "líng",
+    "thai": "ศูนย์",
+    "level": 11,
+    "group": 11,
+    "groupName": "ตัวเลขเพิ่มเติม",
+    "audio": "audio/零.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/零_seal_zdic.svg",
+          "description": "ตัว 零 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「零」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 零 ที่ใช้ในปัจจุบัน แปลว่า「ศูนย์」",
+          "descriptionZh": "现代楷书「零」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "char": "爸",
+    "pinyin": "bà",
+    "thai": "พ่อ",
+    "level": 12,
+    "group": 12,
+    "groupName": "ครอบครัว",
+    "audio": "audio/爸.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 爸 ที่ใช้ในปัจจุบัน แปลว่า「พ่อ」",
+          "descriptionZh": "现代楷书「爸」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "char": "妈",
+    "pinyin": "mā",
+    "thai": "แม่",
+    "level": 12,
+    "group": 12,
+    "groupName": "ครอบครัว",
+    "audio": "audio/妈.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 妈 ที่ใช้ในปัจจุบัน แปลว่า「แม่」",
+          "descriptionZh": "现代楷书「妈」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "char": "儿",
+    "pinyin": "ér",
+    "thai": "ลูกชาย",
+    "level": 12,
+    "group": 12,
+    "groupName": "ครอบครัว",
+    "audio": "audio/儿.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/儿_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 儿 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「儿」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/儿_bronze.svg",
+          "description": "ตัว 儿 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「儿」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/儿_seal.svg",
+          "description": "ตัว 儿 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「儿」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 儿 ที่ใช้ในปัจจุบัน แปลว่า「ลูกชาย」",
+          "descriptionZh": "现代楷书「儿」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "char": "女",
+    "pinyin": "nǚ",
+    "thai": "ผู้หญิง/ลูกสาว",
+    "level": 12,
+    "group": 12,
+    "groupName": "ครอบครัว",
+    "audio": "audio/女.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/女_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 女 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「女」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/女_bronze.svg",
+          "description": "ตัว 女 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「女」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/女_seal.svg",
+          "description": "ตัว 女 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「女」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 女 ที่ใช้ในปัจจุบัน แปลว่า「ผู้หญิง/ลูกสาว」",
+          "descriptionZh": "现代楷书「女」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "char": "她",
+    "pinyin": "tā",
+    "thai": "เธอ(หญิง)",
+    "level": 12,
+    "group": 12,
+    "groupName": "ครอบครัว",
+    "audio": "audio/她.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 她 ที่ใช้ในปัจจุบัน แปลว่า「เธอ(หญิง)」",
+          "descriptionZh": "现代楷书「她」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "char": "好",
+    "pinyin": "hǎo",
+    "thai": "ดี",
+    "level": 13,
+    "group": 13,
+    "groupName": "คำสรรพนามและคำชี้",
+    "audio": "audio/好.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/好_seal_zdic.svg",
+          "description": "ตัว 好 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「好」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 好 ที่ใช้ในปัจจุบัน แปลว่า「ดี」",
+          "descriptionZh": "现代楷书「好」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "char": "们",
+    "pinyin": "men",
+    "thai": "พวก(คำต่อท้าย)",
+    "level": 13,
+    "group": 13,
+    "groupName": "คำสรรพนามและคำชี้",
+    "audio": "audio/们.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 们 ที่ใช้ในปัจจุบัน แปลว่า「พวก(คำต่อท้าย)」",
+          "descriptionZh": "现代楷书「们」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "char": "谁",
+    "pinyin": "shéi",
+    "thai": "ใคร",
+    "level": 13,
+    "group": 13,
+    "groupName": "คำสรรพนามและคำชี้",
+    "audio": "audio/谁.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/谁_seal_zdic.svg",
+          "description": "ตัว 谁 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「谁」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 谁 ที่ใช้ในปัจจุบัน แปลว่า「ใคร」",
+          "descriptionZh": "现代楷书「谁」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "char": "这",
+    "pinyin": "zhè",
+    "thai": "นี่",
+    "level": 13,
+    "group": 13,
+    "groupName": "คำสรรพนามและคำชี้",
+    "audio": "audio/这.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 这 ที่ใช้ในปัจจุบัน แปลว่า「นี่」",
+          "descriptionZh": "现代楷书「这」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "char": "那",
+    "pinyin": "nà",
+    "thai": "นั่น",
+    "level": 13,
+    "group": 13,
+    "groupName": "คำสรรพนามและคำชี้",
+    "audio": "audio/那.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/那_seal_zdic.svg",
+          "description": "ตัว 那 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「那」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 那 ที่ใช้ในปัจจุบัน แปลว่า「นั่น」",
+          "descriptionZh": "现代楷书「那」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "char": "哪",
+    "pinyin": "nǎ",
+    "thai": "ไหน",
+    "level": 13,
+    "group": 13,
+    "groupName": "คำสรรพนามและคำชี้",
+    "audio": "audio/哪.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 哪 ที่ใช้ในปัจจุบัน แปลว่า「ไหน」",
+          "descriptionZh": "现代楷书「哪」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "char": "的",
+    "pinyin": "de",
+    "thai": "ของ(คำเชื่อม)",
+    "level": 14,
+    "group": 14,
+    "groupName": "คำช่วย/อนุภาค",
+    "audio": "audio/的.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 的 ที่ใช้ในปัจจุบัน แปลว่า「ของ(คำเชื่อม)」",
+          "descriptionZh": "现代楷书「的」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "char": "了",
+    "pinyin": "le",
+    "thai": "แล้ว(อดีต)",
+    "level": 14,
+    "group": 14,
+    "groupName": "คำช่วย/อนุภาค",
+    "audio": "audio/了.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/了_seal.svg",
+          "description": "ตัว 了 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「了」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 了 ที่ใช้ในปัจจุบัน แปลว่า「แล้ว(อดีต)」",
+          "descriptionZh": "现代楷书「了」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "char": "吗",
+    "pinyin": "ma",
+    "thai": "ไหม(คำถาม)",
+    "level": 14,
+    "group": 14,
+    "groupName": "คำช่วย/อนุภาค",
+    "audio": "audio/吗.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 吗 ที่ใช้ในปัจจุบัน แปลว่า「ไหม(คำถาม)」",
+          "descriptionZh": "现代楷书「吗」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "char": "呢",
+    "pinyin": "ne",
+    "thai": "ล่ะ(คำถาม)",
+    "level": 14,
+    "group": 14,
+    "groupName": "คำช่วย/อนุภาค",
+    "audio": "audio/呢.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 呢 ที่ใช้ในปัจจุบัน แปลว่า「ล่ะ(คำถาม)」",
+          "descriptionZh": "现代楷书「呢」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "char": "和",
+    "pinyin": "hé",
+    "thai": "และ",
+    "level": 14,
+    "group": 14,
+    "groupName": "คำช่วย/อนุภาค",
+    "audio": "audio/和.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/和_seal_zdic.svg",
+          "description": "ตัว 和 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「和」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 和 ที่ใช้ในปัจจุบัน แปลว่า「และ」",
+          "descriptionZh": "现代楷书「和」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "char": "不",
+    "pinyin": "bù",
+    "thai": "ไม่",
+    "level": 14,
+    "group": 14,
+    "groupName": "คำช่วย/อนุภาค",
+    "audio": "audio/不.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/不_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 不 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「不」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/不_seal.svg",
+          "description": "ตัว 不 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「不」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 不 ที่ใช้ในปัจจุบัน แปลว่า「ไม่」",
+          "descriptionZh": "现代楷书「不」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "char": "是",
+    "pinyin": "shì",
+    "thai": "เป็น/คือ",
+    "level": 15,
+    "group": 15,
+    "groupName": "คำกริยาพื้นฐาน (1)",
+    "audio": "audio/是.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/是_seal_zdic.svg",
+          "description": "ตัว 是 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「是」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 是 ที่ใช้ในปัจจุบัน แปลว่า「เป็น/คือ」",
+          "descriptionZh": "现代楷书「是」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "char": "有",
+    "pinyin": "yǒu",
+    "thai": "มี",
+    "level": 15,
+    "group": 15,
+    "groupName": "คำกริยาพื้นฐาน (1)",
+    "audio": "audio/有.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/有_bronze.svg",
+          "description": "ตัว 有 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「有」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/有_seal.svg",
+          "description": "ตัว 有 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「有」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 有 ที่ใช้ในปัจจุบัน แปลว่า「มี」",
+          "descriptionZh": "现代楷书「有」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "char": "看",
+    "pinyin": "kàn",
+    "thai": "ดู/มอง",
+    "level": 15,
+    "group": 15,
+    "groupName": "คำกริยาพื้นฐาน (1)",
+    "audio": "audio/看.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/看_seal_zdic.svg",
+          "description": "ตัว 看 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「看」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 看 ที่ใช้ในปัจจุบัน แปลว่า「ดู/มอง」",
+          "descriptionZh": "现代楷书「看」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "char": "见",
+    "pinyin": "jiàn",
+    "thai": "เห็น/พบ",
+    "level": 15,
+    "group": 15,
+    "groupName": "คำกริยาพื้นฐาน (1)",
+    "audio": "audio/见.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/见_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 见 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「见」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/见_bronze.svg",
+          "description": "ตัว 见 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「见」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/见_seal.svg",
+          "description": "ตัว 见 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「见」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 见 ที่ใช้ในปัจจุบัน แปลว่า「เห็น/พบ」",
+          "descriptionZh": "现代楷书「见」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "char": "读",
+    "pinyin": "dú",
+    "thai": "อ่าน",
+    "level": 15,
+    "group": 15,
+    "groupName": "คำกริยาพื้นฐาน (1)",
+    "audio": "audio/读.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/读_seal_zdic.svg",
+          "description": "ตัว 读 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「读」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 读 ที่ใช้ในปัจจุบัน แปลว่า「อ่าน」",
+          "descriptionZh": "现代楷书「读」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "char": "写",
+    "pinyin": "xiě",
+    "thai": "เขียน",
+    "level": 16,
+    "group": 16,
+    "groupName": "คำกริยาพื้นฐาน (2)",
+    "audio": "audio/写.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/写_seal.svg",
+          "description": "ตัว 写 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「写」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 写 ที่ใช้ในปัจจุบัน แปลว่า「เขียน」",
+          "descriptionZh": "现代楷书「写」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "char": "会",
+    "pinyin": "huì",
+    "thai": "ได้/เป็น",
+    "level": 16,
+    "group": 16,
+    "groupName": "คำกริยาพื้นฐาน (2)",
+    "audio": "audio/会.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/会_bronze.svg",
+          "description": "ตัว 会 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「会」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/会_seal.svg",
+          "description": "ตัว 会 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「会」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 会 ที่ใช้ในปัจจุบัน แปลว่า「ได้/เป็น」",
+          "descriptionZh": "现代楷书「会」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "char": "说",
+    "pinyin": "shuō",
+    "thai": "พูด",
+    "level": 16,
+    "group": 16,
+    "groupName": "คำกริยาพื้นฐาน (2)",
+    "audio": "audio/说.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/说_seal_zdic.svg",
+          "description": "ตัว 说 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「说」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 说 ที่ใช้ในปัจจุบัน แปลว่า「พูด」",
+          "descriptionZh": "现代楷书「说」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "char": "话",
+    "pinyin": "huà",
+    "thai": "คำพูด",
+    "level": 16,
+    "group": 16,
+    "groupName": "คำกริยาพื้นฐาน (2)",
+    "audio": "audio/话.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/话_seal_zdic.svg",
+          "description": "ตัว 话 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「话」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 话 ที่ใช้ในปัจจุบัน แปลว่า「คำพูด」",
+          "descriptionZh": "现代楷书「话」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "char": "想",
+    "pinyin": "xiǎng",
+    "thai": "คิด/อยาก",
+    "level": 16,
+    "group": 16,
+    "groupName": "คำกริยาพื้นฐาน (2)",
+    "audio": "audio/想.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/想_seal_zdic.svg",
+          "description": "ตัว 想 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「想」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 想 ที่ใช้ในปัจจุบัน แปลว่า「คิด/อยาก」",
+          "descriptionZh": "现代楷书「想」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "char": "住",
+    "pinyin": "zhù",
+    "thai": "อยู่/อาศัย",
+    "level": 17,
+    "group": 17,
+    "groupName": "คำกริยาพื้นฐาน (3)",
+    "audio": "audio/住.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 住 ที่ใช้ในปัจจุบัน แปลว่า「อยู่/อาศัย」",
+          "descriptionZh": "现代楷书「住」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "char": "在",
+    "pinyin": "zài",
+    "thai": "อยู่ที่",
+    "level": 17,
+    "group": 17,
+    "groupName": "คำกริยาพื้นฐาน (3)",
+    "audio": "audio/在.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/在_bronze.svg",
+          "description": "ตัว 在 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「在」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/在_seal.svg",
+          "description": "ตัว 在 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「在」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 在 ที่ใช้ในปัจจุบัน แปลว่า「อยู่ที่」",
+          "descriptionZh": "现代楷书「在」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "char": "能",
+    "pinyin": "néng",
+    "thai": "สามารถ",
+    "level": 17,
+    "group": 17,
+    "groupName": "คำกริยาพื้นฐาน (3)",
+    "audio": "audio/能.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/能_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 能 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「能」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/能_seal.svg",
+          "description": "ตัว 能 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「能」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 能 ที่ใช้ในปัจจุบัน แปลว่า「สามารถ」",
+          "descriptionZh": "现代楷书「能」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "char": "做",
+    "pinyin": "zuò",
+    "thai": "ทำ",
+    "level": 18,
+    "group": 18,
+    "groupName": "คำกริยาพื้นฐาน (4)",
+    "audio": "audio/做.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/做_seal.svg",
+          "description": "ตัว 做 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「做」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 做 ที่ใช้ในปัจจุบัน แปลว่า「ทำ」",
+          "descriptionZh": "现代楷书「做」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "char": "打",
+    "pinyin": "dǎ",
+    "thai": "ตี/โทร",
+    "level": 18,
+    "group": 18,
+    "groupName": "คำกริยาพื้นฐาน (4)",
+    "audio": "audio/打.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/打_seal_zdic.svg",
+          "description": "ตัว 打 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「打」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 打 ที่ใช้ในปัจจุบัน แปลว่า「ตี/โทร」",
+          "descriptionZh": "现代楷书「打」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "char": "开",
+    "pinyin": "kāi",
+    "thai": "เปิด",
+    "level": 18,
+    "group": 18,
+    "groupName": "คำกริยาพื้นฐาน (4)",
+    "audio": "audio/开.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/开_seal_zdic.svg",
+          "description": "ตัว 开 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「开」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 开 ที่ใช้ในปัจจุบัน แปลว่า「เปิด」",
+          "descriptionZh": "现代楷书「开」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "char": "关",
+    "pinyin": "guān",
+    "thai": "ปิด",
+    "level": 18,
+    "group": 18,
+    "groupName": "คำกริยาพื้นฐาน (4)",
+    "audio": "audio/关.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/关_seal.svg",
+          "description": "ตัว 关 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「关」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 关 ที่ใช้ในปัจจุบัน แปลว่า「ปิด」",
+          "descriptionZh": "现代楷书「关」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "char": "没",
+    "pinyin": "méi",
+    "thai": "ไม่ได้/ไม่มี",
+    "level": 18,
+    "group": 18,
+    "groupName": "คำกริยาพื้นฐาน (4)",
+    "audio": "audio/没.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/没_seal.svg",
+          "description": "ตัว 没 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「没」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 没 ที่ใช้ในปัจจุบัน แปลว่า「ไม่ได้/ไม่มี」",
+          "descriptionZh": "现代楷书「没」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "char": "吃",
+    "pinyin": "chī",
+    "thai": "กิน",
+    "level": 19,
+    "group": 19,
+    "groupName": "คำกริยาในชีวิตประจำวัน",
+    "audio": "audio/吃.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/吃_seal_zdic.svg",
+          "description": "ตัว 吃 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「吃」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 吃 ที่ใช้ในปัจจุบัน แปลว่า「กิน」",
+          "descriptionZh": "现代楷书「吃」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "char": "喝",
+    "pinyin": "hē",
+    "thai": "ดื่ม",
+    "level": 19,
+    "group": 19,
+    "groupName": "คำกริยาในชีวิตประจำวัน",
+    "audio": "audio/喝.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/喝_seal_zdic.svg",
+          "description": "ตัว 喝 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「喝」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 喝 ที่ใช้ในปัจจุบัน แปลว่า「ดื่ม」",
+          "descriptionZh": "现代楷书「喝」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "char": "买",
+    "pinyin": "mǎi",
+    "thai": "ซื้อ",
+    "level": 19,
+    "group": 19,
+    "groupName": "คำกริยาในชีวิตประจำวัน",
+    "audio": "audio/买.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/买_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 买 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「买」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/买_bronze.svg",
+          "description": "ตัว 买 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「买」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/买_seal.svg",
+          "description": "ตัว 买 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「买」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 买 ที่ใช้ในปัจจุบัน แปลว่า「ซื้อ」",
+          "descriptionZh": "现代楷书「买」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "char": "卖",
+    "pinyin": "mài",
+    "thai": "ขาย",
+    "level": 19,
+    "group": 19,
+    "groupName": "คำกริยาในชีวิตประจำวัน",
+    "audio": "audio/卖.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/卖_seal_zdic.svg",
+          "description": "ตัว 卖 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「卖」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 卖 ที่ใช้ในปัจจุบัน แปลว่า「ขาย」",
+          "descriptionZh": "现代楷书「卖」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "char": "坐",
+    "pinyin": "zuò",
+    "thai": "นั่ง",
+    "level": 19,
+    "group": 19,
+    "groupName": "คำกริยาในชีวิตประจำวัน",
+    "audio": "audio/坐.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/坐_seal_zdic.svg",
+          "description": "ตัว 坐 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「坐」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 坐 ที่ใช้ในปัจจุบัน แปลว่า「นั่ง」",
+          "descriptionZh": "现代楷书「坐」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "char": "站",
+    "pinyin": "zhàn",
+    "thai": "ยืน",
+    "level": 20,
+    "group": 20,
+    "groupName": "คำกริยาเพิ่มเติม",
+    "audio": "audio/站.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 站 ที่ใช้ในปัจจุบัน แปลว่า「ยืน」",
+          "descriptionZh": "现代楷书「站」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "char": "回",
+    "pinyin": "huí",
+    "thai": "กลับ",
+    "level": 20,
+    "group": 20,
+    "groupName": "คำกริยาเพิ่มเติม",
+    "audio": "audio/回.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/回_bronze.svg",
+          "description": "ตัว 回 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「回」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 回 ที่ใช้ในปัจจุบัน แปลว่า「กลับ」",
+          "descriptionZh": "现代楷书「回」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 78,
+    "char": "家",
+    "pinyin": "jiā",
+    "thai": "บ้าน",
+    "level": 20,
+    "group": 20,
+    "groupName": "คำกริยาเพิ่มเติม",
+    "audio": "audio/家.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/家_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 家 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「家」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/家_bronze.svg",
+          "description": "ตัว 家 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「家」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/家_seal.svg",
+          "description": "ตัว 家 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「家」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 家 ที่ใช้ในปัจจุบัน แปลว่า「บ้าน」",
+          "descriptionZh": "现代楷书「家」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 79,
+    "char": "叫",
+    "pinyin": "jiào",
+    "thai": "เรียก/ชื่อ",
+    "level": 20,
+    "group": 20,
+    "groupName": "คำกริยาเพิ่มเติม",
+    "audio": "audio/叫.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/叫_seal_zdic.svg",
+          "description": "ตัว 叫 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「叫」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 叫 ที่ใช้ในปัจจุบัน แปลว่า「เรียก/ชื่อ」",
+          "descriptionZh": "现代楷书「叫」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 80,
+    "char": "请",
+    "pinyin": "qǐng",
+    "thai": "เชิญ/กรุณา",
+    "level": 20,
+    "group": 20,
+    "groupName": "คำกริยาเพิ่มเติม",
+    "audio": "audio/请.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/请_seal_zdic.svg",
+          "description": "ตัว 请 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「请」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 请 ที่ใช้ในปัจจุบัน แปลว่า「เชิญ/กรุณา」",
+          "descriptionZh": "现代楷书「请」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 81,
+    "char": "听",
+    "pinyin": "tīng",
+    "thai": "ฟัง",
+    "level": 21,
+    "group": 21,
+    "groupName": "การสื่อสารและการเรียนรู้",
+    "audio": "audio/听.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/听_seal_zdic.svg",
+          "description": "ตัว 听 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「听」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 听 ที่ใช้ในปัจจุบัน แปลว่า「ฟัง」",
+          "descriptionZh": "现代楷书「听」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 82,
+    "char": "认",
+    "pinyin": "rèn",
+    "thai": "จำได้/รู้จัก",
+    "level": 21,
+    "group": 21,
+    "groupName": "การสื่อสารและการเรียนรู้",
+    "audio": "audio/认.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 认 ที่ใช้ในปัจจุบัน แปลว่า「จำได้/รู้จัก」",
+          "descriptionZh": "现代楷书「认」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 83,
+    "char": "识",
+    "pinyin": "shí",
+    "thai": "รู้/รู้จัก",
+    "level": 21,
+    "group": 21,
+    "groupName": "การสื่อสารและการเรียนรู้",
+    "audio": "audio/识.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/识_seal_zdic.svg",
+          "description": "ตัว 识 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「识」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 识 ที่ใช้ในปัจจุบัน แปลว่า「รู้/รู้จัก」",
+          "descriptionZh": "现代楷书「识」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 84,
+    "char": "学",
+    "pinyin": "xué",
+    "thai": "เรียน",
+    "level": 21,
+    "group": 21,
+    "groupName": "การสื่อสารและการเรียนรู้",
+    "audio": "audio/学.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/学_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 学 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「学」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/学_bronze.svg",
+          "description": "ตัว 学 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「学」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/学_seal.svg",
+          "description": "ตัว 学 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「学」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 学 ที่ใช้ในปัจจุบัน แปลว่า「เรียน」",
+          "descriptionZh": "现代楷书「学」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 85,
+    "char": "习",
+    "pinyin": "xí",
+    "thai": "ฝึก/ทบทวน",
+    "level": 21,
+    "group": 21,
+    "groupName": "การสื่อสารและการเรียนรู้",
+    "audio": "audio/习.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/习_seal_zdic.svg",
+          "description": "ตัว 习 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「习」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 习 ที่ใช้ในปัจจุบัน แปลว่า「ฝึก/ทบทวน」",
+          "descriptionZh": "现代楷书「习」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "char": "工",
+    "pinyin": "gōng",
+    "thai": "งาน/ช่าง",
+    "level": 22,
+    "group": 22,
+    "groupName": "การทำงาน",
+    "audio": "audio/工.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/工_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 工 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「工」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/工_bronze.svg",
+          "description": "ตัว 工 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「工」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 工 ที่ใช้ในปัจจุบัน แปลว่า「งาน/ช่าง」",
+          "descriptionZh": "现代楷书「工」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "char": "作",
+    "pinyin": "zuò",
+    "thai": "ทำงาน",
+    "level": 22,
+    "group": 22,
+    "groupName": "การทำงาน",
+    "audio": "audio/作.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/作_seal_zdic.svg",
+          "description": "ตัว 作 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「作」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 作 ที่ใช้ในปัจจุบัน แปลว่า「ทำงาน」",
+          "descriptionZh": "现代楷书「作」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 88,
+    "char": "多",
+    "pinyin": "duō",
+    "thai": "มาก",
+    "level": 23,
+    "group": 23,
+    "groupName": "คำคุณศัพท์ (1)",
+    "audio": "audio/多.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/多_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 多 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「多」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/多_bronze.svg",
+          "description": "ตัว 多 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「多」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/多_seal.svg",
+          "description": "ตัว 多 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「多」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 多 ที่ใช้ในปัจจุบัน แปลว่า「มาก」",
+          "descriptionZh": "现代楷书「多」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 89,
+    "char": "少",
+    "pinyin": "shǎo",
+    "thai": "น้อย",
+    "level": 23,
+    "group": 23,
+    "groupName": "คำคุณศัพท์ (1)",
+    "audio": "audio/少.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/少_seal_zdic.svg",
+          "description": "ตัว 少 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「少」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 少 ที่ใช้ในปัจจุบัน แปลว่า「น้อย」",
+          "descriptionZh": "现代楷书「少」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "char": "冷",
+    "pinyin": "lěng",
+    "thai": "หนาว",
+    "level": 23,
+    "group": 23,
+    "groupName": "คำคุณศัพท์ (1)",
+    "audio": "audio/冷.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/冷_seal_zdic.svg",
+          "description": "ตัว 冷 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「冷」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 冷 ที่ใช้ในปัจจุบัน แปลว่า「หนาว」",
+          "descriptionZh": "现代楷书「冷」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "char": "热",
+    "pinyin": "rè",
+    "thai": "ร้อน",
+    "level": 23,
+    "group": 23,
+    "groupName": "คำคุณศัพท์ (1)",
+    "audio": "audio/热.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/热_seal_zdic.svg",
+          "description": "ตัว 热 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「热」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 热 ที่ใช้ในปัจจุบัน แปลว่า「ร้อน」",
+          "descriptionZh": "现代楷书「热」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 92,
+    "char": "高",
+    "pinyin": "gāo",
+    "thai": "สูง",
+    "level": 23,
+    "group": 23,
+    "groupName": "คำคุณศัพท์ (1)",
+    "audio": "audio/高.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/高_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 高 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「高」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/高_bronze.svg",
+          "description": "ตัว 高 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「高」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/高_seal.svg",
+          "description": "ตัว 高 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「高」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 高 ที่ใช้ในปัจจุบัน แปลว่า「สูง」",
+          "descriptionZh": "现代楷书「高」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "char": "长",
+    "pinyin": "cháng",
+    "thai": "ยาว",
+    "level": 24,
+    "group": 24,
+    "groupName": "คำคุณศัพท์ (2)",
+    "audio": "audio/长.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/长_seal.svg",
+          "description": "ตัว 长 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「长」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 长 ที่ใช้ในปัจจุบัน แปลว่า「ยาว」",
+          "descriptionZh": "现代楷书「长」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "char": "短",
+    "pinyin": "duǎn",
+    "thai": "สั้น",
+    "level": 24,
+    "group": 24,
+    "groupName": "คำคุณศัพท์ (2)",
+    "audio": "audio/短.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/短_seal_zdic.svg",
+          "description": "ตัว 短 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「短」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 短 ที่ใช้ในปัจจุบัน แปลว่า「สั้น」",
+          "descriptionZh": "现代楷书「短」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 95,
+    "char": "快",
+    "pinyin": "kuài",
+    "thai": "เร็ว",
+    "level": 24,
+    "group": 24,
+    "groupName": "คำคุณศัพท์ (2)",
+    "audio": "audio/快.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/快_seal_zdic.svg",
+          "description": "ตัว 快 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「快」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 快 ที่ใช้ในปัจจุบัน แปลว่า「เร็ว」",
+          "descriptionZh": "现代楷书「快」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "char": "慢",
+    "pinyin": "màn",
+    "thai": "ช้า",
+    "level": 24,
+    "group": 24,
+    "groupName": "คำคุณศัพท์ (2)",
+    "audio": "audio/慢.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/慢_seal_zdic.svg",
+          "description": "ตัว 慢 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「慢」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 慢 ที่ใช้ในปัจจุบัน แปลว่า「ช้า」",
+          "descriptionZh": "现代楷书「慢」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "char": "年",
+    "pinyin": "nián",
+    "thai": "ปี",
+    "level": 25,
+    "group": 25,
+    "groupName": "เวลา: ปี/เดือน/วัน",
+    "audio": "audio/年.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/年_seal_zdic.svg",
+          "description": "ตัว 年 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「年」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 年 ที่ใช้ในปัจจุบัน แปลว่า「ปี」",
+          "descriptionZh": "现代楷书「年」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "char": "星",
+    "pinyin": "xīng",
+    "thai": "ดาว",
+    "level": 25,
+    "group": 25,
+    "groupName": "เวลา: ปี/เดือน/วัน",
+    "audio": "audio/星.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/星_seal_zdic.svg",
+          "description": "ตัว 星 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「星」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 星 ที่ใช้ในปัจจุบัน แปลว่า「ดาว」",
+          "descriptionZh": "现代楷书「星」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "char": "期",
+    "pinyin": "qī",
+    "thai": "ช่วงเวลา/สัปดาห์",
+    "level": 25,
+    "group": 25,
+    "groupName": "เวลา: ปี/เดือน/วัน",
+    "audio": "audio/期.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/期_seal_zdic.svg",
+          "description": "ตัว 期 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「期」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 期 ที่ใช้ในปัจจุบัน แปลว่า「ช่วงเวลา/สัปดาห์」",
+          "descriptionZh": "现代楷书「期」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "char": "今",
+    "pinyin": "jīn",
+    "thai": "ปัจจุบัน",
+    "level": 26,
+    "group": 26,
+    "groupName": "เวลา: วันนี้/เมื่อวาน",
+    "audio": "audio/今.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/今_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 今 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「今」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/今_bronze.svg",
+          "description": "ตัว 今 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「今」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/今_seal.svg",
+          "description": "ตัว 今 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「今」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 今 ที่ใช้ในปัจจุบัน แปลว่า「ปัจจุบัน」",
+          "descriptionZh": "现代楷书「今」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "char": "天",
+    "pinyin": "tiān",
+    "thai": "วัน/ฟ้า",
+    "level": 26,
+    "group": 26,
+    "groupName": "เวลา: วันนี้/เมื่อวาน",
+    "audio": "audio/天.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/天_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 天 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「天」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/天_bronze.svg",
+          "description": "ตัว 天 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「天」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 天 ที่ใช้ในปัจจุบัน แปลว่า「วัน/ฟ้า」",
+          "descriptionZh": "现代楷书「天」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "char": "昨",
+    "pinyin": "zuó",
+    "thai": "เมื่อวาน",
+    "level": 26,
+    "group": 26,
+    "groupName": "เวลา: วันนี้/เมื่อวาน",
+    "audio": "audio/昨.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/昨_seal_zdic.svg",
+          "description": "ตัว 昨 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「昨」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 昨 ที่ใช้ในปัจจุบัน แปลว่า「เมื่อวาน」",
+          "descriptionZh": "现代楷书「昨」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "char": "明",
+    "pinyin": "míng",
+    "thai": "พรุ่งนี้/สว่าง",
+    "level": 26,
+    "group": 26,
+    "groupName": "เวลา: วันนี้/เมื่อวาน",
+    "audio": "audio/明.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/明_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 明 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「明」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/明_bronze.svg",
+          "description": "ตัว 明 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「明」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/明_seal.svg",
+          "description": "ตัว 明 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「明」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 明 ที่ใช้ในปัจจุบัน แปลว่า「พรุ่งนี้/สว่าง」",
+          "descriptionZh": "现代楷书「明」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "char": "后",
+    "pinyin": "hòu",
+    "thai": "หลัง",
+    "level": 26,
+    "group": 26,
+    "groupName": "เวลา: วันนี้/เมื่อวาน",
+    "audio": "audio/后.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/后_seal_zdic.svg",
+          "description": "ตัว 后 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「后」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 后 ที่ใช้ในปัจจุบัน แปลว่า「หลัง」",
+          "descriptionZh": "现代楷书「后」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "char": "时",
+    "pinyin": "shí",
+    "thai": "เวลา/ชั่วโมง",
+    "level": 27,
+    "group": 27,
+    "groupName": "เวลา: ชั่วโมง/นาที",
+    "audio": "audio/时.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/时_seal_zdic.svg",
+          "description": "ตัว 时 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「时」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 时 ที่ใช้ในปัจจุบัน แปลว่า「เวลา/ชั่วโมง」",
+          "descriptionZh": "现代楷书「时」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "char": "分",
+    "pinyin": "fēn",
+    "thai": "นาที",
+    "level": 27,
+    "group": 27,
+    "groupName": "เวลา: ชั่วโมง/นาที",
+    "audio": "audio/分.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/分_seal_zdic.svg",
+          "description": "ตัว 分 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「分」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 分 ที่ใช้ในปัจจุบัน แปลว่า「นาที」",
+          "descriptionZh": "现代楷书「分」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "char": "点",
+    "pinyin": "diǎn",
+    "thai": "จุด/นาฬิกา",
+    "level": 27,
+    "group": 27,
+    "groupName": "เวลา: ชั่วโมง/นาที",
+    "audio": "audio/点.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/点_seal_zdic.svg",
+          "description": "ตัว 点 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「点」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 点 ที่ใช้ในปัจจุบัน แปลว่า「จุด/นาฬิกา」",
+          "descriptionZh": "现代楷书「点」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "char": "半",
+    "pinyin": "bàn",
+    "thai": "ครึ่ง",
+    "level": 27,
+    "group": 27,
+    "groupName": "เวลา: ชั่วโมง/นาที",
+    "audio": "audio/半.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/半_seal_zdic.svg",
+          "description": "ตัว 半 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「半」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 半 ที่ใช้ในปัจจุบัน แปลว่า「ครึ่ง」",
+          "descriptionZh": "现代楷书「半」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "char": "午",
+    "pinyin": "wǔ",
+    "thai": "เที่ยง",
+    "level": 28,
+    "group": 28,
+    "groupName": "เวลา: เช้า/บ่าย/เย็น",
+    "audio": "audio/午.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/午_seal_zdic.svg",
+          "description": "ตัว 午 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「午」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 午 ที่ใช้ในปัจจุบัน แปลว่า「เที่ยง」",
+          "descriptionZh": "现代楷书「午」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "char": "早",
+    "pinyin": "zǎo",
+    "thai": "เช้า",
+    "level": 28,
+    "group": 28,
+    "groupName": "เวลา: เช้า/บ่าย/เย็น",
+    "audio": "audio/早.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/早_seal_zdic.svg",
+          "description": "ตัว 早 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「早」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 早 ที่ใช้ในปัจจุบัน แปลว่า「เช้า」",
+          "descriptionZh": "现代楷书「早」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "char": "晚",
+    "pinyin": "wǎn",
+    "thai": "เย็น/ดึก",
+    "level": 28,
+    "group": 28,
+    "groupName": "เวลา: เช้า/บ่าย/เย็น",
+    "audio": "audio/晚.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/晚_seal_zdic.svg",
+          "description": "ตัว 晚 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「晚」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 晚 ที่ใช้ในปัจจุบัน แปลว่า「เย็น/ดึก」",
+          "descriptionZh": "现代楷书「晚」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 112,
+    "char": "前",
+    "pinyin": "qián",
+    "thai": "ก่อน/หน้า",
+    "level": 29,
+    "group": 29,
+    "groupName": "เวลา: คำเสริม",
+    "audio": "audio/前.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/前_seal_zdic.svg",
+          "description": "ตัว 前 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「前」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 前 ที่ใช้ในปัจจุบัน แปลว่า「ก่อน/หน้า」",
+          "descriptionZh": "现代楷书「前」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "char": "现",
+    "pinyin": "xiàn",
+    "thai": "ปัจจุบัน",
+    "level": 29,
+    "group": 29,
+    "groupName": "เวลา: คำเสริม",
+    "audio": "audio/现.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 现 ที่ใช้ในปัจจุบัน แปลว่า「ปัจจุบัน」",
+          "descriptionZh": "现代楷书「现」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 114,
+    "char": "几",
+    "pinyin": "jǐ",
+    "thai": "กี่",
+    "level": 29,
+    "group": 29,
+    "groupName": "เวลา: คำเสริม",
+    "audio": "audio/几.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/几_seal.svg",
+          "description": "ตัว 几 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「几」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 几 ที่ใช้ในปัจจุบัน แปลว่า「กี่」",
+          "descriptionZh": "现代楷书「几」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "char": "号",
+    "pinyin": "hào",
+    "thai": "วันที่/เบอร์",
+    "level": 29,
+    "group": 29,
+    "groupName": "เวลา: คำเสริม",
+    "audio": "audio/号.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/号_seal_zdic.svg",
+          "description": "ตัว 号 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「号」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 号 ที่ใช้ในปัจจุบัน แปลว่า「วันที่/เบอร์」",
+          "descriptionZh": "现代楷书「号」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 116,
+    "char": "岁",
+    "pinyin": "suì",
+    "thai": "ปี(อายุ)",
+    "level": 29,
+    "group": 29,
+    "groupName": "เวลา: คำเสริม",
+    "audio": "audio/岁.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/岁_seal_zdic.svg",
+          "description": "ตัว 岁 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「岁」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 岁 ที่ใช้ในปัจจุบัน แปลว่า「ปี(อายุ)」",
+          "descriptionZh": "现代楷书「岁」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 117,
+    "char": "米",
+    "pinyin": "mǐ",
+    "thai": "ข้าวสาร",
+    "level": 30,
+    "group": 30,
+    "groupName": "อาหารและเครื่องดื่ม",
+    "audio": "audio/米.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/米_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 米 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「米」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 米 ที่ใช้ในปัจจุบัน แปลว่า「ข้าวสาร」",
+          "descriptionZh": "现代楷书「米」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 118,
+    "char": "饭",
+    "pinyin": "fàn",
+    "thai": "ข้าว(สุก)",
+    "level": 30,
+    "group": 30,
+    "groupName": "อาหารและเครื่องดื่ม",
+    "audio": "audio/饭.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/饭_seal_zdic.svg",
+          "description": "ตัว 饭 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「饭」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 饭 ที่ใช้ในปัจจุบัน แปลว่า「ข้าว(สุก)」",
+          "descriptionZh": "现代楷书「饭」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 119,
+    "char": "菜",
+    "pinyin": "cài",
+    "thai": "ผัก/อาหาร",
+    "level": 30,
+    "group": 30,
+    "groupName": "อาหารและเครื่องดื่ม",
+    "audio": "audio/菜.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/菜_seal_zdic.svg",
+          "description": "ตัว 菜 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「菜」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 菜 ที่ใช้ในปัจจุบัน แปลว่า「ผัก/อาหาร」",
+          "descriptionZh": "现代楷书「菜」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 120,
+    "char": "茶",
+    "pinyin": "chá",
+    "thai": "ชา",
+    "level": 30,
+    "group": 30,
+    "groupName": "อาหารและเครื่องดื่ม",
+    "audio": "audio/茶.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 茶 ที่ใช้ในปัจจุบัน แปลว่า「ชา」",
+          "descriptionZh": "现代楷书「茶」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "char": "杯",
+    "pinyin": "bēi",
+    "thai": "แก้ว",
+    "level": 30,
+    "group": 30,
+    "groupName": "อาหารและเครื่องดื่ม",
+    "audio": "audio/杯.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 杯 ที่ใช้ในปัจจุบัน แปลว่า「แก้ว」",
+          "descriptionZh": "现代楷书「杯」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 122,
+    "char": "果",
+    "pinyin": "guǒ",
+    "thai": "ผลไม้",
+    "level": 30,
+    "group": 30,
+    "groupName": "อาหารและเครื่องดื่ม",
+    "audio": "audio/果.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/果_seal_zdic.svg",
+          "description": "ตัว 果 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「果」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 果 ที่ใช้ในปัจจุบัน แปลว่า「ผลไม้」",
+          "descriptionZh": "现代楷书「果」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "char": "店",
+    "pinyin": "diàn",
+    "thai": "ร้าน",
+    "level": 31,
+    "group": 31,
+    "groupName": "สถานที่",
+    "audio": "audio/店.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 店 ที่ใช้ในปัจจุบัน แปลว่า「ร้าน」",
+          "descriptionZh": "现代楷书「店」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 124,
+    "char": "医",
+    "pinyin": "yī",
+    "thai": "แพทย์",
+    "level": 31,
+    "group": 31,
+    "groupName": "สถานที่",
+    "audio": "audio/医.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/医_seal_zdic.svg",
+          "description": "ตัว 医 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「医」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 医 ที่ใช้ในปัจจุบัน แปลว่า「แพทย์」",
+          "descriptionZh": "现代楷书「医」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 125,
+    "char": "院",
+    "pinyin": "yuàn",
+    "thai": "สถาบัน/โรงพยาบาล",
+    "level": 31,
+    "group": 31,
+    "groupName": "สถานที่",
+    "audio": "audio/院.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/院_seal_zdic.svg",
+          "description": "ตัว 院 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「院」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 院 ที่ใช้ในปัจจุบัน แปลว่า「สถาบัน/โรงพยาบาล」",
+          "descriptionZh": "现代楷书「院」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 126,
+    "char": "校",
+    "pinyin": "xiào",
+    "thai": "โรงเรียน",
+    "level": 31,
+    "group": 31,
+    "groupName": "สถานที่",
+    "audio": "audio/校.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/校_seal_zdic.svg",
+          "description": "ตัว 校 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「校」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 校 ที่ใช้ในปัจจุบัน แปลว่า「โรงเรียน」",
+          "descriptionZh": "现代楷书「校」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "char": "飞",
+    "pinyin": "fēi",
+    "thai": "บิน",
+    "level": 31,
+    "group": 31,
+    "groupName": "สถานที่",
+    "audio": "audio/飞.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/飞_seal_zdic.svg",
+          "description": "ตัว 飞 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「飞」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 飞 ที่ใช้ในปัจจุบัน แปลว่า「บิน」",
+          "descriptionZh": "现代楷书「飞」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 128,
+    "char": "机",
+    "pinyin": "jī",
+    "thai": "เครื่อง",
+    "level": 31,
+    "group": 31,
+    "groupName": "สถานที่",
+    "audio": "audio/机.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/机_seal_zdic.svg",
+          "description": "ตัว 机 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「机」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 机 ที่ใช้ในปัจจุบัน แปลว่า「เครื่อง」",
+          "descriptionZh": "现代楷书「机」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "char": "场",
+    "pinyin": "chǎng",
+    "thai": "สนาม/ที่",
+    "level": 31,
+    "group": 31,
+    "groupName": "สถานที่",
+    "audio": "audio/场.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/场_seal_zdic.svg",
+          "description": "ตัว 场 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「场」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 场 ที่ใช้ในปัจจุบัน แปลว่า「สนาม/ที่」",
+          "descriptionZh": "现代楷书「场」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "char": "书",
+    "pinyin": "shū",
+    "thai": "หนังสือ",
+    "level": 32,
+    "group": 32,
+    "groupName": "โรงเรียนและสิ่งของ",
+    "audio": "audio/书.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/书_seal_zdic.svg",
+          "description": "ตัว 书 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「书」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 书 ที่ใช้ในปัจจุบัน แปลว่า「หนังสือ」",
+          "descriptionZh": "现代楷书「书」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 131,
+    "char": "桌",
+    "pinyin": "zhuō",
+    "thai": "โต๊ะ",
+    "level": 32,
+    "group": 32,
+    "groupName": "โรงเรียนและสิ่งของ",
+    "audio": "audio/桌.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 桌 ที่ใช้ในปัจจุบัน แปลว่า「โต๊ะ」",
+          "descriptionZh": "现代楷书「桌」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 132,
+    "char": "椅",
+    "pinyin": "yǐ",
+    "thai": "เก้าอี้",
+    "level": 32,
+    "group": 32,
+    "groupName": "โรงเรียนและสิ่งของ",
+    "audio": "audio/椅.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/椅_seal_zdic.svg",
+          "description": "ตัว 椅 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「椅」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 椅 ที่ใช้ในปัจจุบัน แปลว่า「เก้าอี้」",
+          "descriptionZh": "现代楷书「椅」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "char": "电",
+    "pinyin": "diàn",
+    "thai": "ไฟฟ้า",
+    "level": 32,
+    "group": 32,
+    "groupName": "โรงเรียนและสิ่งของ",
+    "audio": "audio/电.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/电_seal_zdic.svg",
+          "description": "ตัว 电 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「电」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 电 ที่ใช้ในปัจจุบัน แปลว่า「ไฟฟ้า」",
+          "descriptionZh": "现代楷书「电」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "char": "脑",
+    "pinyin": "nǎo",
+    "thai": "สมอง",
+    "level": 32,
+    "group": 32,
+    "groupName": "โรงเรียนและสิ่งของ",
+    "audio": "audio/脑.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 脑 ที่ใช้ในปัจจุบัน แปลว่า「สมอง」",
+          "descriptionZh": "现代楷书「脑」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 135,
+    "char": "视",
+    "pinyin": "shì",
+    "thai": "ดู/โทรทัศน์",
+    "level": 32,
+    "group": 32,
+    "groupName": "โรงเรียนและสิ่งของ",
+    "audio": "audio/视.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/视_seal_zdic.svg",
+          "description": "ตัว 视 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「视」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 视 ที่ใช้ในปัจจุบัน แปลว่า「ดู/โทรทัศน์」",
+          "descriptionZh": "现代楷书「视」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "char": "影",
+    "pinyin": "yǐng",
+    "thai": "เงา/ภาพยนตร์",
+    "level": 33,
+    "group": 33,
+    "groupName": "สิ่งของและเงิน",
+    "audio": "audio/影.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 影 ที่ใช้ในปัจจุบัน แปลว่า「เงา/ภาพยนตร์」",
+          "descriptionZh": "现代楷书「影」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 137,
+    "char": "车",
+    "pinyin": "chē",
+    "thai": "รถ",
+    "level": 33,
+    "group": 33,
+    "groupName": "สิ่งของและเงิน",
+    "audio": "audio/车.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/车_seal.svg",
+          "description": "ตัว 车 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「车」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 车 ที่ใช้ในปัจจุบัน แปลว่า「รถ」",
+          "descriptionZh": "现代楷书「车」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 138,
+    "char": "票",
+    "pinyin": "piào",
+    "thai": "ตั๋ว",
+    "level": 33,
+    "group": 33,
+    "groupName": "สิ่งของและเงิน",
+    "audio": "audio/票.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/票_seal_zdic.svg",
+          "description": "ตัว 票 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「票」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 票 ที่ใช้ในปัจจุบัน แปลว่า「ตั๋ว」",
+          "descriptionZh": "现代楷书「票」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 139,
+    "char": "钱",
+    "pinyin": "qián",
+    "thai": "เงิน",
+    "level": 33,
+    "group": 33,
+    "groupName": "สิ่งของและเงิน",
+    "audio": "audio/钱.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/钱_seal_zdic.svg",
+          "description": "ตัว 钱 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「钱」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 钱 ที่ใช้ในปัจจุบัน แปลว่า「เงิน」",
+          "descriptionZh": "现代楷书「钱」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 140,
+    "char": "块",
+    "pinyin": "kuài",
+    "thai": "ก้อน/หยวน",
+    "level": 33,
+    "group": 33,
+    "groupName": "สิ่งของและเงิน",
+    "audio": "audio/块.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 块 ที่ใช้ในปัจจุบัน แปลว่า「ก้อน/หยวน」",
+          "descriptionZh": "现代楷书「块」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "char": "衣",
+    "pinyin": "yī",
+    "thai": "เสื้อผ้า",
+    "level": 34,
+    "group": 34,
+    "groupName": "เสื้อผ้าและสิ่งของ",
+    "audio": "audio/衣.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/衣_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 衣 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「衣」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/衣_bronze.svg",
+          "description": "ตัว 衣 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「衣」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/衣_seal.svg",
+          "description": "ตัว 衣 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「衣」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 衣 ที่ใช้ในปัจจุบัน แปลว่า「เสื้อผ้า」",
+          "descriptionZh": "现代楷书「衣」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 142,
+    "char": "服",
+    "pinyin": "fú",
+    "thai": "เสื้อผ้า/ชุด",
+    "level": 34,
+    "group": 34,
+    "groupName": "เสื้อผ้าและสิ่งของ",
+    "audio": "audio/服.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/服_seal_zdic.svg",
+          "description": "ตัว 服 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「服」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 服 ที่ใช้ในปัจจุบัน แปลว่า「เสื้อผ้า/ชุด」",
+          "descriptionZh": "现代楷书「服」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 143,
+    "char": "东",
+    "pinyin": "dōng",
+    "thai": "ตะวันออก",
+    "level": 34,
+    "group": 34,
+    "groupName": "เสื้อผ้าและสิ่งของ",
+    "audio": "audio/东.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/东_seal.svg",
+          "description": "ตัว 东 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「东」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 东 ที่ใช้ในปัจจุบัน แปลว่า「ตะวันออก」",
+          "descriptionZh": "现代楷书「东」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 144,
+    "char": "西",
+    "pinyin": "xī",
+    "thai": "ตะวันตก/สิ่งของ",
+    "level": 34,
+    "group": 34,
+    "groupName": "เสื้อผ้าและสิ่งของ",
+    "audio": "audio/西.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/西_seal_zdic.svg",
+          "description": "ตัว 西 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「西」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 西 ที่ใช้ในปัจจุบัน แปลว่า「ตะวันตก/สิ่งของ」",
+          "descriptionZh": "现代楷书「西」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 145,
+    "char": "朋",
+    "pinyin": "péng",
+    "thai": "เพื่อน",
+    "level": 35,
+    "group": 35,
+    "groupName": "เพื่อนและคนรู้จัก",
+    "audio": "audio/朋.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/朋_bronze.svg",
+          "description": "ตัว 朋 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「朋」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/朋_seal.svg",
+          "description": "ตัว 朋 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「朋」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 朋 ที่ใช้ในปัจจุบัน แปลว่า「เพื่อน」",
+          "descriptionZh": "现代楷书「朋」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 146,
+    "char": "友",
+    "pinyin": "yǒu",
+    "thai": "เพื่อน/มิตร",
+    "level": 35,
+    "group": 35,
+    "groupName": "เพื่อนและคนรู้จัก",
+    "audio": "audio/友.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/友_bronze.svg",
+          "description": "ตัว 友 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「友」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/友_seal.svg",
+          "description": "ตัว 友 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「友」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 友 ที่ใช้ในปัจจุบัน แปลว่า「เพื่อน/มิตร」",
+          "descriptionZh": "现代楷书「友」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 147,
+    "char": "同",
+    "pinyin": "tóng",
+    "thai": "เหมือน/ร่วม",
+    "level": 35,
+    "group": 35,
+    "groupName": "เพื่อนและคนรู้จัก",
+    "audio": "audio/同.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/同_seal_zdic.svg",
+          "description": "ตัว 同 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「同」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 同 ที่ใช้ในปัจจุบัน แปลว่า「เหมือน/ร่วม」",
+          "descriptionZh": "现代楷书「同」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "char": "先",
+    "pinyin": "xiān",
+    "thai": "ก่อน",
+    "level": 35,
+    "group": 35,
+    "groupName": "เพื่อนและคนรู้จัก",
+    "audio": "audio/先.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/先_seal_zdic.svg",
+          "description": "ตัว 先 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「先」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 先 ที่ใช้ในปัจจุบัน แปลว่า「ก่อน」",
+          "descriptionZh": "现代楷书「先」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 149,
+    "char": "生",
+    "pinyin": "shēng",
+    "thai": "เกิด/คุณ",
+    "level": 35,
+    "group": 35,
+    "groupName": "เพื่อนและคนรู้จัก",
+    "audio": "audio/生.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/生_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 生 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「生」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/生_bronze.svg",
+          "description": "ตัว 生 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「生」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/生_seal.svg",
+          "description": "ตัว 生 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「生」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 生 ที่ใช้ในปัจจุบัน แปลว่า「เกิด/คุณ」",
+          "descriptionZh": "现代楷书「生」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "char": "老",
+    "pinyin": "lǎo",
+    "thai": "เก่า/อาวุโส",
+    "level": 36,
+    "group": 36,
+    "groupName": "ครอบครัวและคนรอบข้าง",
+    "audio": "audio/老.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/老_seal_zdic.svg",
+          "description": "ตัว 老 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「老」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 老 ที่ใช้ในปัจจุบัน แปลว่า「เก่า/อาวุโส」",
+          "descriptionZh": "现代楷书「老」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "char": "师",
+    "pinyin": "shī",
+    "thai": "ครู/อาจารย์",
+    "level": 36,
+    "group": 36,
+    "groupName": "ครอบครัวและคนรอบข้าง",
+    "audio": "audio/师.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/师_seal_zdic.svg",
+          "description": "ตัว 师 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「师」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 师 ที่ใช้ในปัจจุบัน แปลว่า「ครู/อาจารย์」",
+          "descriptionZh": "现代楷书「师」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 152,
+    "char": "爱",
+    "pinyin": "ài",
+    "thai": "รัก",
+    "level": 36,
+    "group": 36,
+    "groupName": "ครอบครัวและคนรอบข้าง",
+    "audio": "audio/爱.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/爱_seal.svg",
+          "description": "ตัว 爱 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「爱」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 爱 ที่ใช้ในปัจจุบัน แปลว่า「รัก」",
+          "descriptionZh": "现代楷书「爱」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 153,
+    "char": "对",
+    "pinyin": "duì",
+    "thai": "ถูก/ต่อ",
+    "level": 36,
+    "group": 36,
+    "groupName": "ครอบครัวและคนรอบข้าง",
+    "audio": "audio/对.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/对_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 对 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「对」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/对_bronze.svg",
+          "description": "ตัว 对 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「对」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/对_seal.svg",
+          "description": "ตัว 对 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「对」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 对 ที่ใช้ในปัจจุบัน แปลว่า「ถูก/ต่อ」",
+          "descriptionZh": "现代楷书「对」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 154,
+    "char": "孩",
+    "pinyin": "hái",
+    "thai": "เด็ก",
+    "level": 37,
+    "group": 37,
+    "groupName": "ครอบครัวขยาย",
+    "audio": "audio/孩.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/孩_seal_zdic.svg",
+          "description": "ตัว 孩 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「孩」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 孩 ที่ใช้ในปัจจุบัน แปลว่า「เด็ก」",
+          "descriptionZh": "现代楷书「孩」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 155,
+    "char": "名",
+    "pinyin": "míng",
+    "thai": "ชื่อ",
+    "level": 37,
+    "group": 37,
+    "groupName": "ครอบครัวขยาย",
+    "audio": "audio/名.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/名_seal_zdic.svg",
+          "description": "ตัว 名 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「名」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 名 ที่ใช้ในปัจจุบัน แปลว่า「ชื่อ」",
+          "descriptionZh": "现代楷书「名」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "char": "字",
+    "pinyin": "zì",
+    "thai": "ตัวอักษร",
+    "level": 37,
+    "group": 37,
+    "groupName": "ครอบครัวขยาย",
+    "audio": "audio/字.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/字_seal_zdic.svg",
+          "description": "ตัว 字 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「字」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 字 ที่ใช้ในปัจจุบัน แปลว่า「ตัวอักษร」",
+          "descriptionZh": "现代楷书「字」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 157,
+    "char": "哥",
+    "pinyin": "gē",
+    "thai": "พี่ชาย",
+    "level": 38,
+    "group": 38,
+    "groupName": "พี่น้องและคู่สมรส",
+    "audio": "audio/哥.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/哥_seal_zdic.svg",
+          "description": "ตัว 哥 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「哥」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 哥 ที่ใช้ในปัจจุบัน แปลว่า「พี่ชาย」",
+          "descriptionZh": "现代楷书「哥」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 158,
+    "char": "姐",
+    "pinyin": "jiě",
+    "thai": "พี่สาว",
+    "level": 38,
+    "group": 38,
+    "groupName": "พี่น้องและคู่สมรส",
+    "audio": "audio/姐.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/姐_seal_zdic.svg",
+          "description": "ตัว 姐 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「姐」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 姐 ที่ใช้ในปัจจุบัน แปลว่า「พี่สาว」",
+          "descriptionZh": "现代楷书「姐」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 159,
+    "char": "弟",
+    "pinyin": "dì",
+    "thai": "น้องชาย",
+    "level": 38,
+    "group": 38,
+    "groupName": "พี่น้องและคู่สมรส",
+    "audio": "audio/弟.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/弟_seal_zdic.svg",
+          "description": "ตัว 弟 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「弟」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 弟 ที่ใช้ในปัจจุบัน แปลว่า「น้องชาย」",
+          "descriptionZh": "现代楷书「弟」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 160,
+    "char": "妹",
+    "pinyin": "mèi",
+    "thai": "น้องสาว",
+    "level": 38,
+    "group": 38,
+    "groupName": "พี่น้องและคู่สมรส",
+    "audio": "audio/妹.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/妹_seal_zdic.svg",
+          "description": "ตัว 妹 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「妹」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 妹 ที่ใช้ในปัจจุบัน แปลว่า「น้องสาว」",
+          "descriptionZh": "现代楷书「妹」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "char": "丈",
+    "pinyin": "zhàng",
+    "thai": "สามี(คำนำหน้า)",
+    "level": 38,
+    "group": 38,
+    "groupName": "พี่น้องและคู่สมรส",
+    "audio": "audio/丈.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/丈_seal_zdic.svg",
+          "description": "ตัว 丈 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「丈」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 丈 ที่ใช้ในปัจจุบัน แปลว่า「สามี(คำนำหน้า)」",
+          "descriptionZh": "现代楷书「丈」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "char": "夫",
+    "pinyin": "fū",
+    "thai": "สามี",
+    "level": 38,
+    "group": 38,
+    "groupName": "พี่น้องและคู่สมรส",
+    "audio": "audio/夫.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/夫_seal_zdic.svg",
+          "description": "ตัว 夫 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「夫」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 夫 ที่ใช้ในปัจจุบัน แปลว่า「สามี」",
+          "descriptionZh": "现代楷书「夫」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "char": "妻",
+    "pinyin": "qī",
+    "thai": "ภรรยา",
+    "level": 38,
+    "group": 38,
+    "groupName": "พี่น้องและคู่สมรส",
+    "audio": "audio/妻.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/妻_seal_zdic.svg",
+          "description": "ตัว 妻 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「妻」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 妻 ที่ใช้ในปัจจุบัน แปลว่า「ภรรยา」",
+          "descriptionZh": "现代楷书「妻」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 164,
+    "char": "都",
+    "pinyin": "dōu",
+    "thai": "ทั้งหมด",
+    "level": 39,
+    "group": 39,
+    "groupName": "คำวิเศษณ์",
+    "audio": "audio/都.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/都_seal_zdic.svg",
+          "description": "ตัว 都 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「都」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 都 ที่ใช้ในปัจจุบัน แปลว่า「ทั้งหมด」",
+          "descriptionZh": "现代楷书「都」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "char": "很",
+    "pinyin": "hěn",
+    "thai": "มาก",
+    "level": 39,
+    "group": 39,
+    "groupName": "คำวิเศษณ์",
+    "audio": "audio/很.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/很_seal_zdic.svg",
+          "description": "ตัว 很 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「很」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 很 ที่ใช้ในปัจจุบัน แปลว่า「มาก」",
+          "descriptionZh": "现代楷书「很」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 166,
+    "char": "太",
+    "pinyin": "tài",
+    "thai": "เกินไป",
+    "level": 39,
+    "group": 39,
+    "groupName": "คำวิเศษณ์",
+    "audio": "audio/太.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/太_seal_zdic.svg",
+          "description": "ตัว 太 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「太」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 太 ที่ใช้ในปัจจุบัน แปลว่า「เกินไป」",
+          "descriptionZh": "现代楷书「太」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 167,
+    "char": "也",
+    "pinyin": "yě",
+    "thai": "ก็/ด้วย",
+    "level": 39,
+    "group": 39,
+    "groupName": "คำวิเศษณ์",
+    "audio": "audio/也.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/也_bronze.svg",
+          "description": "ตัว 也 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「也」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/也_seal.svg",
+          "description": "ตัว 也 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「也」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 也 ที่ใช้ในปัจจุบัน แปลว่า「ก็/ด้วย」",
+          "descriptionZh": "现代楷书「也」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "char": "还",
+    "pinyin": "hái",
+    "thai": "ยัง/อีก",
+    "level": 39,
+    "group": 39,
+    "groupName": "คำวิเศษณ์",
+    "audio": "audio/还.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/还_seal_zdic.svg",
+          "description": "ตัว 还 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「还」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 还 ที่ใช้ในปัจจุบัน แปลว่า「ยัง/อีก」",
+          "descriptionZh": "现代楷书「还」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "char": "再",
+    "pinyin": "zài",
+    "thai": "อีกครั้ง",
+    "level": 39,
+    "group": 39,
+    "groupName": "คำวิเศษณ์",
+    "audio": "audio/再.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/再_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 再 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「再」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/再_bronze.svg",
+          "description": "ตัว 再 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「再」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/再_seal.svg",
+          "description": "ตัว 再 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「再」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 再 ที่ใช้ในปัจจุบัน แปลว่า「อีกครั้ง」",
+          "descriptionZh": "现代楷书「再」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 170,
+    "char": "里",
+    "pinyin": "lǐ",
+    "thai": "ใน",
+    "level": 40,
+    "group": 40,
+    "groupName": "ทิศทางและตำแหน่ง (1)",
+    "audio": "audio/里.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/里_seal_zdic.svg",
+          "description": "ตัว 里 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「里」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 里 ที่ใช้ในปัจจุบัน แปลว่า「ใน」",
+          "descriptionZh": "现代楷书「里」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "char": "面",
+    "pinyin": "miàn",
+    "thai": "หน้า/ด้าน",
+    "level": 40,
+    "group": 40,
+    "groupName": "ทิศทางและตำแหน่ง (1)",
+    "audio": "audio/面.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/面_seal_zdic.svg",
+          "description": "ตัว 面 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「面」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 面 ที่ใช้ในปัจจุบัน แปลว่า「หน้า/ด้าน」",
+          "descriptionZh": "现代楷书「面」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 172,
+    "char": "外",
+    "pinyin": "wài",
+    "thai": "นอก",
+    "level": 40,
+    "group": 40,
+    "groupName": "ทิศทางและตำแหน่ง (1)",
+    "audio": "audio/外.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/外_seal_zdic.svg",
+          "description": "ตัว 外 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「外」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 外 ที่ใช้ในปัจจุบัน แปลว่า「นอก」",
+          "descriptionZh": "现代楷书「外」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 173,
+    "char": "边",
+    "pinyin": "biān",
+    "thai": "ข้าง",
+    "level": 40,
+    "group": 40,
+    "groupName": "ทิศทางและตำแหน่ง (1)",
+    "audio": "audio/边.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 边 ที่ใช้ในปัจจุบัน แปลว่า「ข้าง」",
+          "descriptionZh": "现代楷书「边」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 174,
+    "char": "左",
+    "pinyin": "zuǒ",
+    "thai": "ซ้าย",
+    "level": 40,
+    "group": 40,
+    "groupName": "ทิศทางและตำแหน่ง (1)",
+    "audio": "audio/左.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/左_seal_zdic.svg",
+          "description": "ตัว 左 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「左」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 左 ที่ใช้ในปัจจุบัน แปลว่า「ซ้าย」",
+          "descriptionZh": "现代楷书「左」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 175,
+    "char": "右",
+    "pinyin": "yòu",
+    "thai": "ขวา",
+    "level": 40,
+    "group": 40,
+    "groupName": "ทิศทางและตำแหน่ง (1)",
+    "audio": "audio/右.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/右_seal_zdic.svg",
+          "description": "ตัว 右 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「右」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 右 ที่ใช้ในปัจจุบัน แปลว่า「ขวา」",
+          "descriptionZh": "现代楷书「右」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 176,
+    "char": "间",
+    "pinyin": "jiān",
+    "thai": "ระหว่าง",
+    "level": 41,
+    "group": 41,
+    "groupName": "ทิศทางและตำแหน่ง (2)",
+    "audio": "audio/间.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/间_seal_zdic.svg",
+          "description": "ตัว 间 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「间」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 间 ที่ใช้ในปัจจุบัน แปลว่า「ระหว่าง」",
+          "descriptionZh": "现代楷书「间」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 177,
+    "char": "旁",
+    "pinyin": "páng",
+    "thai": "ข้าง",
+    "level": 41,
+    "group": 41,
+    "groupName": "ทิศทางและตำแหน่ง (2)",
+    "audio": "audio/旁.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/旁_seal_zdic.svg",
+          "description": "ตัว 旁 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「旁」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 旁 ที่ใช้ในปัจจุบัน แปลว่า「ข้าง」",
+          "descriptionZh": "现代楷书「旁」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 178,
+    "char": "近",
+    "pinyin": "jìn",
+    "thai": "ใกล้",
+    "level": 41,
+    "group": 41,
+    "groupName": "ทิศทางและตำแหน่ง (2)",
+    "audio": "audio/近.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/近_seal_zdic.svg",
+          "description": "ตัว 近 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「近」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 近 ที่ใช้ในปัจจุบัน แปลว่า「ใกล้」",
+          "descriptionZh": "现代楷书「近」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "char": "远",
+    "pinyin": "yuǎn",
+    "thai": "ไกล",
+    "level": 41,
+    "group": 41,
+    "groupName": "ทิศทางและตำแหน่ง (2)",
+    "audio": "audio/远.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/远_seal_zdic.svg",
+          "description": "ตัว 远 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「远」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 远 ที่ใช้ในปัจจุบัน แปลว่า「ไกล」",
+          "descriptionZh": "现代楷书「远」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 180,
+    "char": "出",
+    "pinyin": "chū",
+    "thai": "ออก",
+    "level": 42,
+    "group": 42,
+    "groupName": "คำกริยาการเคลื่อนที่",
+    "audio": "audio/出.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "甲骨文",
+          "nameTh": "อักษรบนกระดูก",
+          "period": "~1300 ปีก่อน ค.ศ.",
+          "image": "etymology/出_oracle.svg",
+          "description": "รูปแบบดั้งเดิมที่สุดของตัว 出 สลักบนกระดูกสัตว์",
+          "descriptionZh": "「出」最古老的形态，刻在龟甲兽骨上"
+        },
+        {
+          "name": "金文",
+          "nameTh": "อักษรบนสำริด",
+          "period": "~800 ปีก่อน ค.ศ.",
+          "image": "etymology/出_bronze.svg",
+          "description": "ตัว 出 ที่หล่อบนภาชนะสำริด รูปแบบเริ่มเปลี่ยนแปลง",
+          "descriptionZh": "「出」铸刻在青铜器上的形态"
+        },
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/出_seal.svg",
+          "description": "ตัว 出 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「出」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 出 ที่ใช้ในปัจจุบัน แปลว่า「ออก」",
+          "descriptionZh": "现代楷书「出」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 181,
+    "char": "进",
+    "pinyin": "jìn",
+    "thai": "เข้า",
+    "level": 42,
+    "group": 42,
+    "groupName": "คำกริยาการเคลื่อนที่",
+    "audio": "audio/进.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 进 ที่ใช้ในปัจจุบัน แปลว่า「เข้า」",
+          "descriptionZh": "现代楷书「进」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 182,
+    "char": "过",
+    "pinyin": "guò",
+    "thai": "ผ่าน/เคย",
+    "level": 42,
+    "group": 42,
+    "groupName": "คำกริยาการเคลื่อนที่",
+    "audio": "audio/过.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/过_seal.svg",
+          "description": "ตัว 过 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「过」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 过 ที่ใช้ในปัจจุบัน แปลว่า「ผ่าน/เคย」",
+          "descriptionZh": "现代楷书「过」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 183,
+    "char": "到",
+    "pinyin": "dào",
+    "thai": "ถึง",
+    "level": 42,
+    "group": 42,
+    "groupName": "คำกริยาการเคลื่อนที่",
+    "audio": "audio/到.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/到_seal_zdic.svg",
+          "description": "ตัว 到 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「到」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 到 ที่ใช้ในปัจจุบัน แปลว่า「ถึง」",
+          "descriptionZh": "现代楷书「到」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 184,
+    "char": "从",
+    "pinyin": "cóng",
+    "thai": "จาก",
+    "level": 42,
+    "group": 42,
+    "groupName": "คำกริยาการเคลื่อนที่",
+    "audio": "audio/从.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/从_seal_zdic.svg",
+          "description": "ตัว 从 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「从」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 从 ที่ใช้ในปัจจุบัน แปลว่า「จาก」",
+          "descriptionZh": "现代楷书「从」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 185,
+    "char": "往",
+    "pinyin": "wǎng",
+    "thai": "ไปทาง",
+    "level": 42,
+    "group": 42,
+    "groupName": "คำกริยาการเคลื่อนที่",
+    "audio": "audio/往.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/往_seal_zdic.svg",
+          "description": "ตัว 往 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「往」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 往 ที่ใช้ในปัจจุบัน แปลว่า「ไปทาง」",
+          "descriptionZh": "现代楷书「往」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 186,
+    "char": "猫",
+    "pinyin": "māo",
+    "thai": "แมว",
+    "level": 43,
+    "group": 43,
+    "groupName": "สัตว์เลี้ยง",
+    "audio": "audio/猫.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/猫_seal_zdic.svg",
+          "description": "ตัว 猫 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「猫」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 猫 ที่ใช้ในปัจจุบัน แปลว่า「แมว」",
+          "descriptionZh": "现代楷书「猫」，沿用至今"
+        }
+      ]
+    }
+  },
+  {
+    "id": 187,
+    "char": "狗",
+    "pinyin": "gǒu",
+    "thai": "สุนัข",
+    "level": 43,
+    "group": 43,
+    "groupName": "สัตว์เลี้ยง",
+    "audio": "audio/狗.mp3",
+    "etymology": {
+      "stages": [
+        {
+          "name": "篆书",
+          "nameTh": "อักษรตราประทับ",
+          "period": "~200 ปีก่อน ค.ศ.",
+          "image": "etymology/狗_seal_zdic.svg",
+          "description": "ตัว 狗 ในอักษรตราประทับ รูปแบบเริ่มเป็นมาตรฐาน",
+          "descriptionZh": "「狗」的篆书形态，笔画趋于规范"
+        },
+        {
+          "name": "楷书",
+          "nameTh": "อักษรปัจจุบัน",
+          "period": "ปัจจุบัน",
+          "image": null,
+          "description": "ตัว 狗 ที่ใช้ในปัจจุบัน แปลว่า「สุนัข」",
+          "descriptionZh": "现代楷书「狗」，沿用至今"
+        }
+      ]
+    }
   }
 ]
