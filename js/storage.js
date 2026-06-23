@@ -89,6 +89,14 @@ const Storage = {
     });
   },
 
+  // 判断某个 level 是否已解锁（第一课默认解锁，后续需前一课完成）
+  isLevelUnlocked(level, characters) {
+    const levels = [...new Set(characters.map(c => c.level))].sort((a, b) => a - b);
+    const idx = levels.indexOf(level);
+    if (idx <= 0) return true; // 第一课始终解锁
+    return this.isLevelCompleted(levels[idx - 1], characters);
+  },
+
   // 获取总体进度百分比
   getOverallProgress(characters) {
     const all = this.getAllProgress();

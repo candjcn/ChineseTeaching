@@ -65,11 +65,37 @@ function renderDashboard() {
     const groupName = chars[0].groupName;
     const levelProgress = Storage.getLevelProgress(level, characterData);
     const isCompleted = levelProgress.learned === levelProgress.total && levelProgress.total > 0;
+    const isUnlocked = Storage.isLevelUnlocked(level, characterData);
 
     const statusDots = chars.map(c => {
       const p = Storage.getCharProgress(c.char);
-      return `<span class="status-dot ${p.status}" title="${c.char} - ${p.status}"></span>`;
+      return `<span class="status-dot ${isUnlocked ? p.status : 'new'}" title="${c.char}"></span>`;
     }).join('');
+
+    if (!isUnlocked) {
+      return `
+        <div class="level-card locked" onclick="showLockedHint()">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <div class="text-sm text-gray-400 font-semibold">Day ${level}</div>
+              <div class="text-base font-bold mt-1 text-gray-400">${groupName}</div>
+            </div>
+            <div class="text-2xl">&#128274;</div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="flex gap-2 text-3xl char-display text-gray-300">
+              ${chars.map(c => `<span>${c.char}</span>`).join('')}
+            </div>
+          </div>
+          <div class="mt-3">
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" style="width: 0%"></div>
+            </div>
+            <div class="text-xs text-gray-400 mt-1">เรียน Day ${level - 1} ให้จบก่อนเพื่อปลดล็อก</div>
+          </div>
+        </div>
+      `;
+    }
 
     return `
       <div class="level-card ${isCompleted ? 'completed' : ''}" onclick="enterLevel(${level})">
@@ -98,6 +124,11 @@ function renderDashboard() {
 
 // ===== 进入 Level =====
 function enterLevel(level) {
+  if (!Storage.isLevelUnlocked(level, characterData)) {
+    showLockedHint();
+    return;
+  }
+
   currentLevel = level;
   currentLevelChars = characterData.filter(c => c.level === level);
   currentCharIndex = 0;
@@ -108,6 +139,14 @@ function enterLevel(level) {
   } else {
     showLearning();
   }
+}
+
+function showLockedHint() {
+  const toast = document.createElement('div');
+  toast.className = 'locked-toast';
+  toast.textContent = 'กรุณาเรียนบทก่อนหน้าให้จบก่อน!';
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 2000);
 }
 
 // ===== 复习关卡 =====
