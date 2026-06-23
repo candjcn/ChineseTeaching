@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>毛笔书写 · 笔锋调参台</title>
+<style>
+  :root{
+    --paper:#f1e8d6; --paper2:#e9dcc4; --ink:#1a1a1a;
+    --zhu:#b23a2e; --zhu-soft:#c75a4a;
+    --grid:#cdbba0; --guide:#d9cdb3; --line:#dfd3bd;
+    --ui:#5a5040; --ui-soft:#8a7d68;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;background:
+     radial-gradient(120% 80% at 50% -10%, #f7f0e1 0%, var(--paper) 55%, var(--paper2) 100%);
+     color:var(--ink);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+     min-height:100%;}
+  .wrap{max-width:430px;margin:0 auto;padding:18px 16px 40px}
+  header{display:flex;align-items:center;gap:12px;margin:4px 2px 16px}
+  .seal{flex:0 0 auto;width:46px;height:46px;border-radius:7px;background:var(--zhu);
+     color:#f1e8d6;display:grid;place-items:center;font-family:"Kaiti SC","STKaiti","KaiTi","楷体",serif;
+     font-size:26px;line-height:1;box-shadow:0 2px 0 rgba(0,0,0,.12);
+     position:relative;font-weight:700}
+  .seal::after{content:"";position:absolute;inset:3px;border:1px solid rgba(241,232,214,.55);border-radius:4px}
+  h1{font-size:18px;margin:0;font-weight:700;letter-spacing:.5px}
+  h1 small{display:block;font-weight:400;font-size:12px;color:var(--ui-soft);margin-top:3px;letter-spacing:0}
+
+  .stage{position:relative;width:min(92vw,360px);aspect-ratio:1;margin:0 auto;
+     background:#fbf6ea;border-radius:10px;
+     box-shadow:0 1px 0 #fff inset,0 6px 22px rgba(80,60,30,.12);
+     touch-action:none;overflow:hidden}
+  .stage canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+  #paper{z-index:1}
+  #ink{z-index:2;touch-action:none}
+
+  .charbar{display:flex;gap:8px;justify-content:center;margin:16px 0 6px;flex-wrap:wrap}
+  .charbar button{font-family:"Kaiti SC","STKaiti","KaiTi","楷体",serif;font-size:20px;
+     width:42px;height:42px;border-radius:8px;border:1px solid var(--line);
+     background:#fbf6ea;color:var(--ink);cursor:pointer}
+  .charbar button.on{background:var(--zhu);color:#f1e8d6;border-color:var(--zhu)}
+
+  .modes{display:flex;gap:8px;justify-content:center;margin:14px 0}
+  .modes button{flex:1;max-width:140px;padding:10px;border-radius:9px;border:1px solid var(--line);
+     background:#fbf6ea;color:var(--ui);font-size:14px;font-weight:600;cursor:pointer}
+  .modes button.on{background:var(--ink);color:#f1e8d6;border-color:var(--ink)}
+
+  .panel{margin-top:6px;background:rgba(255,255,255,.45);border:1px solid var(--line);
+     border-radius:12px;padding:14px 16px}
+  .row{margin:13px 0}
+  .row:first-child{margin-top:4px}
+  .row label{display:flex;justify-content:space-between;font-size:13px;color:var(--ui);margin-bottom:7px}
+  .row label b{color:var(--zhu);font-variant-numeric:tabular-nums;font-weight:700}
+  input[type=range]{width:100%;accent-color:var(--zhu);height:24px}
+
+  .actions{display:flex;gap:10px;margin-top:14px}
+  .actions button{flex:1;padding:11px;border-radius:9px;border:none;font-size:14px;font-weight:700;cursor:pointer}
+  .btn-undo{background:#e7dcc6;color:var(--ui)}
+  .btn-clear{background:var(--zhu);color:#f7efe0}
+
+  .readout{margin-top:14px;font-size:11.5px;color:var(--ui-soft);line-height:1.7;
+     background:rgba(0,0,0,.03);border-radius:8px;padding:10px 12px;font-family:ui-monospace,Menlo,monospace}
+  .readout b{color:var(--ui)}
+  .hint{text-align:center;font-size:12px;color:var(--ui-soft);margin:10px 2px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="seal">书</div>
+    <h1>毛笔书写 · 笔锋调参台<small>慢=粗、快=细，起收笔自动出锋。滑动参数找到你要的"毛笔感"</small></h1>
+  </header>
+
+  <div class="charbar" id="charbar"></div>
+
+  <div class="stage" id="stage">
+    <canvas id="paper"></canvas>
+    <canvas id="ink"></canvas>
+  </div>
+
+  <div class="modes">
+    <button data-mode="brush" class="on">毛笔</button>
+    <button data-mode="pen">硬笔</button>
+  </div>
+
+  <div class="panel">
+    <div class="row">
+      <label>笔锋强度（速度→粗细）<b id="vSpeed">0.70</b></label>
+      <input id="speed" type="range" min="0" max="1" step="0.05" value="0.70">
+    </div>
+    <div class="row">
+      <label>墨色粗细（基础宽度）<b id="vBase">26</b></label>
+      <input id="base" type="range" min="10" max="40" step="1" value="26">
+    </div>
+    <div class="row">
+      <label>出锋长度（起收笔收尖）<b id="vTaper">22</b></label>
+      <input id="taper" type="range" min="0" max="40" step="1" value="22">
+    </div>
+    <div class="row">
+      <label>路径平滑<b id="vSmooth">0.55</b></label>
+      <input id="smooth" type="range" min="0" max="0.85" step="0.05" value="0.55">
+    </div>
+    <div class="actions">
+      <button class="btn-undo" id="undo">↶ 撤销一笔</button>
+      <button class="btn-clear" id="clear">清空重写</button>
+    </div>
+    <div class="readout" id="readout"></div>
+  </div>
+  <p class="hint" id="presshint">用手指直接在格子里写。若用 Apple Pencil / 压感笔，会额外叠加真实压力。</p>
+</div>
+
+<script>
+/* ===== 引擎（与 js/brush.js 同一套）===== */
+(function(global){'use strict';
+ const clamp=(v,a,b)=>v<a?a:v>b?b:v,lerp=(a,b,t)=>a+(b-a)*t,dist=(ax,ay,bx,by)=>Math.hypot(ax-bx,ay-by);
+ const D={mode:'brush',color:'#1a1a1a',baseWidth:26,minWidth:2,maxWidth:40,speedInfluence:0.7,
+   pressureInfluence:0.5,smoothing:0.55,widthSmoothing:0.5,taperStart:14,taperEnd:22,vMax:2.2,inkBleed:0};
+ function easeOut(t){return 1-(1-t)*(1-t);}
+ class BrushPen{
+  constructor(c,o={}){this.canvas=c;this.ctx=c.getContext('2d');this.opt=Object.assign({},D,o);
+    this.committed=document.createElement('canvas');this.cctx=this.committed.getContext('2d');
+    this.strokes=[];this.raw=null;this._sx=0;this._sy=0;this._sync();}
+  setOptions(o){Object.assign(this.opt,o);}
+  _sync(){this.committed.width=this.canvas.width;this.committed.height=this.canvas.height;}
+  clear(){this.strokes=[];this.raw=null;this.cctx.clearRect(0,0,this.committed.width,this.committed.height);this._blit();}
+  undo(){if(!this.strokes.length)return;this.strokes.pop();this.cctx.clearRect(0,0,this.committed.width,this.committed.height);
+    for(const s of this.strokes)this._render(this.cctx,s);this._blit();}
+  isEmpty(){return this.strokes.length===0;}
+  _blit(){this.ctx.clearRect(0,0,this.canvas.width,this.canvas.height);this.ctx.drawImage(this.committed,0,0);}
+  start(x,y,p,s,t){this._sx=x;this._sy=y;this.raw=[{x,y,p:p||0,s:s||0,t:t||performance.now()}];this._blit();}
+  move(x,y,p,s,t){if(!this.raw)return;const a=1-this.opt.smoothing;this._sx=lerp(this._sx,x,a);this._sy=lerp(this._sy,y,a);
+    const last=this.raw[this.raw.length-1];if(dist(this._sx,this._sy,last.x,last.y)<0.6)return;
+    this.raw.push({x:this._sx,y:this._sy,p:p||0,s:s||0,t:t||performance.now()});this._blit();this._render(this.ctx,this.raw);}
+  end(){if(!this.raw)return;if(this.raw.length>=2){this.strokes.push(this.raw);this._render(this.cctx,this.raw);}
+    else if(this.raw.length===1){this._dot(this.cctx,this.raw[0].x,this.raw[0].y,this.opt.baseWidth*0.35);this.strokes.push(this.raw);}
+    this.raw=null;this._blit();}
+  _widths(pts){const o=this.opt,usable=pts.some(q=>q.p>0&&q.p!==0.5),out=[];let prevW=null,arc=[0];
+    for(let i=1;i<pts.length;i++)arc.push(arc[i-1]+dist(pts[i].x,pts[i].y,pts[i-1].x,pts[i-1].y));
+    const total=arc[arc.length-1]||1;
+    for(let i=0;i<pts.length;i++){const p=pts[i];let v=0;
+      if(i>0){const dt=Math.max(8,p.t-pts[i-1].t);v=dist(p.x,p.y,pts[i-1].x,pts[i-1].y)/dt;}
+      const vN=clamp(v/o.vMax,0,1);
+      let sf=o.mode==='pen'?1-vN*0.15:1-vN*o.speedInfluence;
+      let pf=1;
+      if(o.mode==='brush'){if(usable)pf=lerp(1,clamp(p.p,0,1)*1.6,o.pressureInfluence);
+        else if(p.s>0){const sN=clamp(p.s/40,0,1);pf=lerp(1,0.7+sN*0.9,o.pressureInfluence*0.6);}}
+      let w=clamp(o.baseWidth*sf*pf,o.minWidth,o.maxWidth);
+      if(prevW!==null)w=lerp(prevW,w,1-o.widthSmoothing);prevW=w;
+      if(o.mode==='brush'&&arc[i]<o.taperStart){const k=arc[i]/o.taperStart;w*=0.15+0.85*easeOut(k);}
+      const fe=total-arc[i];
+      if(o.mode==='brush'&&fe<o.taperEnd){const k=fe/o.taperEnd;w*=0.08+0.92*easeOut(k);}
+      out.push({x:p.x,y:p.y,w:Math.max(w,0.4)});}
+    return out;}
+  _render(ctx,raw){if(!raw||!raw.length)return;const pts=this._widths(raw);ctx.save();ctx.fillStyle=this.opt.color;
+    if(this.opt.inkBleed>0){ctx.shadowColor=this.opt.color;ctx.shadowBlur=this.opt.inkBleed*3;}
+    if(pts.length===1){this._dot(ctx,pts[0].x,pts[0].y,pts[0].w/2);ctx.restore();return;}
+    for(let i=1;i<pts.length;i++){const a=pts[i-1],b=pts[i];let dx=b.x-a.x,dy=b.y-a.y;const L=Math.hypot(dx,dy)||1;dx/=L;dy/=L;
+      const nx=-dy,ny=dx,aw=a.w/2,bw=b.w/2;
+      ctx.beginPath();ctx.moveTo(a.x+nx*aw,a.y+ny*aw);ctx.lineTo(b.x+nx*bw,b.y+ny*bw);
+      ctx.lineTo(b.x-nx*bw,b.y-ny*bw);ctx.lineTo(a.x-nx*aw,a.y-ny*aw);ctx.closePath();ctx.fill();
+      ctx.beginPath();ctx.arc(b.x,b.y,bw,0,6.2832);ctx.fill();}
+    ctx.restore();}
+  _dot(ctx,x,y,r){ctx.save();ctx.fillStyle=this.opt.color;ctx.beginPath();ctx.arc(x,y,Math.max(r,0.8),0,6.2832);ctx.fill();ctx.restore();}
+ }
+ global.BrushPen=BrushPen;
+})(window);
+
+/* ===== Demo 装配 ===== */
+const stage=document.getElementById('stage');
+const inkC=document.getElementById('ink');
+const paperC=document.getElementById('paper');
+const dpr=Math.min(window.devicePixelRatio||1,3);
+let CH='永';
+
+function sizeCanvas(c){const r=stage.getBoundingClientRect();c.width=Math.round(r.width*dpr);c.height=Math.round(r.height*dpr);}
+function drawPaper(){
+  sizeCanvas(paperC);const g=paperC.getContext('2d');const w=paperC.width,h=paperC.height;
+  g.clearRect(0,0,w,h);
+  // 米字格
+  g.strokeStyle='#d9cbb0';g.lineWidth=Math.max(1,dpr);
+  g.strokeRect(g.lineWidth,g.lineWidth,w-2*g.lineWidth,h-2*g.lineWidth);
+  g.save();g.setLineDash([6*dpr,6*dpr]);g.strokeStyle='#e1cfb0';
+  g.beginPath();g.moveTo(w/2,0);g.lineTo(w/2,h);g.moveTo(0,h/2);g.lineTo(w,h/2);
+  g.moveTo(0,0);g.lineTo(w,h);g.moveTo(w,0);g.lineTo(0,h);g.stroke();g.restore();
+  // 朱砂淡色中心点
+  g.fillStyle='rgba(178,58,46,.18)';g.beginPath();g.arc(w/2,h/2,2.5*dpr,0,6.2832);g.fill();
+  // 临摹引导字（淡）
+  g.fillStyle='rgba(120,105,80,.16)';
+  g.font=`${Math.round(h*0.78)}px "Kaiti SC","STKaiti","KaiTi","楷体",serif`;
+  g.textAlign='center';g.textBaseline='middle';g.fillText(CH,w/2,h*0.54);
+}
+function sizeInk(){sizeCanvas(inkC);pen._sync();pen.clear();}
+
+drawPaper();
+const pen=new BrushPen(inkC,{});
+sizeInk();
+
+// 指针事件
+function pos(e){const r=inkC.getBoundingClientRect();return {x:(e.clientX-r.left)*dpr,y:(e.clientY-r.top)*dpr};}
+let drawing=false, sawPressure=false;
+inkC.addEventListener('pointerdown',e=>{e.preventDefault();inkC.setPointerCapture(e.pointerId);drawing=true;
+  const {x,y}=pos(e);pen.start(x,y,e.pressure,Math.max(e.width||0,e.height||0)*dpr,e.timeStamp);
+  if(e.pressure>0&&e.pressure!==0.5)markPressure();});
+inkC.addEventListener('pointermove',e=>{if(!drawing)return;e.preventDefault();
+  const evs=e.getCoalescedEvents?e.getCoalescedEvents():[e];
+  for(const ce of evs){const {x,y}=pos(ce);pen.move(x,y,ce.pressure,Math.max(ce.width||0,ce.height||0)*dpr,ce.timeStamp);
+    if(ce.pressure>0&&ce.pressure!==0.5)markPressure();}});
+function up(e){if(!drawing)return;drawing=false;pen.end();}
+inkC.addEventListener('pointerup',up);
+inkC.addEventListener('pointercancel',up);
+inkC.addEventListener('pointerleave',up);
+function markPressure(){if(!sawPressure){sawPressure=true;document.getElementById('presshint').textContent='检测到压感设备 ✓ 真实压力已叠加到笔画粗细。';}}
+
+// 字符切换
+const chars=['永','一','人','水','心','字'];
+const cb=document.getElementById('charbar');
+chars.forEach((c,i)=>{const b=document.createElement('button');b.textContent=c;if(c===CH)b.className='on';
+  b.onclick=()=>{CH=c;[...cb.children].forEach(x=>x.classList.remove('on'));b.classList.add('on');drawPaper();pen.clear();sync();};
+  cb.appendChild(b);});
+
+// 模式
+document.querySelectorAll('.modes button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.modes button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+  pen.setOptions({mode:b.dataset.mode});sync();});
+
+// 滑块
+const $=id=>document.getElementById(id);
+function sync(){
+  pen.setOptions({
+    speedInfluence:+$('speed').value, baseWidth:+$('base').value,
+    taperStart:Math.round(+$('taper').value*0.64), taperEnd:+$('taper').value,
+    smoothing:+$('smooth').value
+  });
+  $('vSpeed').textContent=(+$('speed').value).toFixed(2);
+  $('vBase').textContent=$('base').value;
+  $('vTaper').textContent=$('taper').value;
+  $('vSmooth').textContent=(+$('smooth').value).toFixed(2);
+  const o=pen.opt;
+  $('readout').innerHTML=`<b>当前参数</b>（满意后抄进 brush.js 的 DEFAULTS）：<br>`+
+    `mode:'${o.mode}', baseWidth:${o.baseWidth}, speedInfluence:${o.speedInfluence}, `+
+    `taperStart:${o.taperStart}, taperEnd:${o.taperEnd}, smoothing:${o.smoothing}, vMax:${o.vMax}`;
+}
+['speed','base','taper','smooth'].forEach(id=>$(id).addEventListener('input',sync));
+$('undo').onclick=()=>pen.undo();
+$('clear').onclick=()=>pen.clear();
+sync();
+
+window.addEventListener('resize',()=>{drawPaper();sizeInk();},{passive:true});
+</script>
+</body>
+</html>
