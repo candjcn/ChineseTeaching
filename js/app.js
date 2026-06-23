@@ -6,6 +6,8 @@ let currentCharIndex = 0;
 let currentLevelChars = [];
 let writerAnimation = null;
 let writerQuiz = null;
+let quizPen = null;
+let quizInkBound = false;
 
 // 复习状态
 let reviewChars = [];
@@ -321,15 +323,56 @@ function initQuizWriter(charData) {
   const quizTarget = document.getElementById('quiz-target');
   quizTarget.innerHTML = '';
 
+  // 毛笔墨迹层
+  const inkCanvas = document.getElementById('quiz-ink');
+  const dpr = Math.min(window.devicePixelRatio || 1, 3);
+  inkCanvas.width = 250 * dpr;
+  inkCanvas.height = 250 * dpr;
+  if (!quizPen) {
+    quizPen = new BrushPen(inkCanvas, {
+      baseWidth: 24 * dpr, minWidth: 2 * dpr, maxWidth: 38 * dpr,
+      taperStart: 12 * dpr, taperEnd: 20 * dpr,
+      speedInfluence: 0.7, smoothing: 0.55
+    });
+  }
+  quizPen.clear();
+
+  // 一次性绑定手势：监听容器，不打断 HanziWriter
+  if (!quizInkBound) {
+    const container = inkCanvas.parentElement;
+    const toCanvas = (e) => {
+      const r = inkCanvas.getBoundingClientRect();
+      return { x: (e.clientX - r.left) * dpr, y: (e.clientY - r.top) * dpr };
+    };
+    let drawing = false;
+    container.addEventListener('pointerdown', (e) => {
+      drawing = true;
+      const p = toCanvas(e);
+      quizPen.start(p.x, p.y, e.pressure, Math.max(e.width || 0, e.height || 0) * dpr, e.timeStamp);
+    });
+    container.addEventListener('pointermove', (e) => {
+      if (!drawing) return;
+      const evs = e.getCoalescedEvents ? e.getCoalescedEvents() : [e];
+      for (const ce of evs) {
+        const p = toCanvas(ce);
+        quizPen.move(p.x, p.y, ce.pressure, Math.max(ce.width || 0, ce.height || 0) * dpr, ce.timeStamp);
+      }
+    });
+    const lift = () => { drawing = false; };
+    container.addEventListener('pointerup', lift);
+    container.addEventListener('pointercancel', lift);
+    quizInkBound = true;
+  }
+
+  // HanziWriter 只做笔顺校验，墨迹交给 BrushPen
   writerQuiz = HanziWriter.create('quiz-target', charData.char, {
-    width: 250,
-    height: 250,
-    padding: 5,
-    showOutline: false,
+    width: 250, height: 250, padding: 5,
+    showOutline: true, outlineColor: '#ece5d6',
     showCharacter: false,
-    strokeColor: '#2c2c2c',
+    drawingColor: 'rgba(0,0,0,0)',
+    strokeColor: 'rgba(0,0,0,0)',
     highlightColor: '#c0392b',
-    drawingWidth: 20,
+    drawingWidth: 4,
     showHintAfterMisses: 3
   });
 
@@ -337,18 +380,17 @@ function initQuizWriter(charData) {
   document.getElementById('quiz-feedback').className = 'mt-3 text-center';
 
   writerQuiz.quiz({
+    onCorrectStroke: () => { quizPen.commitStroke(); },
+    onMistake:       () => { quizPen.cancelStroke(); },
     onComplete: function(summary) {
       const correct = summary.totalMistakes === 0;
       Storage.recordQuizResult(charData.char, correct);
-
       const feedback = document.getElementById('quiz-feedback');
       if (correct) {
         feedback.innerHTML = `<div class="success-check">&#10003;</div><div class="text-green-600 font-bold">ยอดเยี่ยม! เขียนถูกทุกขีด!</div>`;
       } else {
         feedback.innerHTML = `<div class="text-orange-500 font-bold">เขียนเสร็จแล้ว! ผิด ${summary.totalMistakes} ขีด ลองเขียนใหม่อีกครั้ง</div>`;
       }
-
-      // 更新 tabs 状态
       renderCharTabs();
     }
   });
@@ -449,6 +491,7 @@ function playAnimation() {
 
 // 清除手写重写
 function clearQuiz() {
+  if (quizPen) quizPen.clear();
   const charData = currentLevelChars[currentCharIndex];
   initQuizWriter(charData);
 }
