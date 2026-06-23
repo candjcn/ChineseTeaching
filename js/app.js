@@ -22,6 +22,16 @@ async function init() {
     console.error('Failed to load character data:', e);
     return;
   }
+
+  // 初始化认证
+  Auth.init();
+  Auth.onLogin(() => {
+    // 登录后刷新 dashboard
+    if (document.getElementById('dashboard').classList.contains('active')) {
+      renderDashboard();
+    }
+  });
+
   showDashboard();
 }
 
