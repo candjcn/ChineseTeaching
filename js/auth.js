@@ -6,13 +6,23 @@ const Auth = {
 
   // 初始化：监听认证状态
   init() {
-    auth.onAuthStateChanged(async (user) => {
+    // 检查是否有 redirect 登录结果
+    auth.getRedirectResult().then((result) => {
+      if (result && result.user) {
+        console.log('[Auth] redirect login success:', result.user.email);
+      }
+    }).catch((e) => {
+      console.error('[Auth] redirect result error:', e.code, e.message);
+    });
+
+    auth.onAuthStateChanged((user) => {
+      console.log('[Auth] state changed:', user ? user.email : 'null');
       this.currentUser = user;
       this.updateUI();
       if (user) {
-        await Storage.syncOnLogin(user.uid);
-        // 通知回调（刷新界面数据）
-        this._onLoginCallbacks.forEach(cb => cb());
+        Storage.syncOnLogin(user.uid).then(() => {
+          this._onLoginCallbacks.forEach(cb => cb());
+        }).catch(e => console.warn('[Auth] sync error:', e));
       }
     });
   },
@@ -22,24 +32,27 @@ const Auth = {
     this._onLoginCallbacks.push(callback);
   },
 
-  // Google 登录
-  async signInWithGoogle() {
+  // Google 登录（先尝试弹窗，失败则用重定向）
+  signInWithGoogle() {
     const provider = new firebase.auth.GoogleAuthProvider();
-    try {
-      await auth.signInWithPopup(provider);
-    } catch (e) {
-      console.error('Login failed:', e);
-    }
+    auth.signInWithPopup(provider).then((result) => {
+      console.log('[Auth] popup login success:', result.user.email);
+    }).catch((e) => {
+      console.warn('[Auth] popup failed, trying redirect:', e.code, e.message);
+      // 弹窗失败时自动回退到重定向方式
+      auth.signInWithRedirect(provider);
+    });
   },
 
   // 登出
-  async signOut() {
-    await auth.signOut();
-    this.currentUser = null;
-    this.updateUI();
+  signOut() {
+    auth.signOut().then(() => {
+      this.currentUser = null;
+      this.updateUI();
+    });
   },
 
-  // 是否应提示登录（学过 3 个以上汉字且未登录）
+  // 是否应提示登录
   shouldPromptLogin() {
     if (this.currentUser) return false;
     const all = Storage.getAllProgress();
@@ -53,18 +66,25 @@ const Auth = {
   updateUI() {
     const loginBtn = document.getElementById('login-btn');
     const userAvatar = document.getElementById('user-avatar');
-    const userMenu = document.getElementById('user-menu');
+
+    if (!loginBtn || !userAvatar) return;
 
     if (this.currentUser) {
       loginBtn.style.display = 'none';
       userAvatar.style.display = 'block';
-      userAvatar.querySelector('img').src = this.currentUser.photoURL || '';
-      userAvatar.querySelector('img').alt = this.currentUser.displayName || '';
-      document.getElementById('user-display-name').textContent = this.currentUser.displayName || '';
-      document.getElementById('user-email').textContent = this.currentUser.email || '';
+      const img = userAvatar.querySelector('img');
+      if (img) {
+        img.src = this.currentUser.photoURL || '';
+        img.alt = this.currentUser.displayName || '';
+      }
+      const nameEl = document.getElementById('user-display-name');
+      const emailEl = document.getElementById('user-email');
+      if (nameEl) nameEl.textContent = this.currentUser.displayName || '';
+      if (emailEl) emailEl.textContent = this.currentUser.email || '';
     } else {
       loginBtn.style.display = 'inline-block';
       userAvatar.style.display = 'none';
+      const userMenu = document.getElementById('user-menu');
       if (userMenu) userMenu.style.display = 'none';
     }
   },
@@ -72,7 +92,9 @@ const Auth = {
   // 切换用户菜单
   toggleMenu() {
     const menu = document.getElementById('user-menu');
-    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+    if (menu) {
+      menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+    }
   },
 
   // 显示登录弹窗
